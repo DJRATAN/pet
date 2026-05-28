@@ -12,21 +12,21 @@ const futureInitiatives = [
     subtitle: "Ecological Continuity",
     description: "Re-engineering culverts into subterranean bridges that restore natural migration paths and reduce vehicle-wildlife collisions.",
     icon: <Rabbit className="w-8 h-8" />,
-    img: "/assets/images/Box Culvert/11.jPET", // IMAGE 1
+    img: "/assets/images/Box Culvert/11.jpeg", // IMAGE 1
   },
   {
     title: "Utility Tunnels",
     subtitle: "Modular Smart-Cities",
     description: "Dual-purpose box culverts designed to house fiber optics, power, and water, allowing for maintenance without surface excavation.",
     icon: <Zap className="w-8 h-8" />,
-    img: "/assets/images/Box Culvert/12.jPET", // IMAGE 1
+    img: "/assets/images/Box Culvert/12.jpeg", // IMAGE 1
   },
   {
     title: "Eco-Friendly Concrete",
     subtitle: "Carbon-Negative Precast",
     description: "Implementing Pozzolanic admixtures and CO2 mineralization to create culverts that actively sequester carbon over their 100-year lifespan.",
     icon: <Leaf className="w-6 h-6" />,
-    img: "/assets/images/Box Culvert/13.jPET", // IMAGE 1
+    img: "/assets/images/Box Culvert/13.jpeg", // IMAGE 1
   }
 ];
 

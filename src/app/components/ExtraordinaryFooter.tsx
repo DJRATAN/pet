@@ -10,11 +10,11 @@ import Image from "next/image";
 import { footerData } from "@/lib/data";
 
 const logos = [
-    { src: "/assets/footer_logo/PET.jPET", alt: "Partner 01" },
-    { src: "/assets/footer_logo/precasteng.jPET", alt: "Partner 02" },
-    { src: "/assets/footer_logo/pxchange.jPET", alt: "Partner 03" },
-    { src: "/assets/footer_logo/totaltech.jPET", alt: "Partner 04" },
-    { src: "/assets/footer_logo/trench-unlimited.jPET", alt: "Partner 05" },
+    { src: "/assets/footer_logo/peg.jpeg", alt: "Partner 01" },
+    { src: "/assets/footer_logo/precasteng.jpeg", alt: "Partner 02" },
+    { src: "/assets/footer_logo/pxchange.jpeg", alt: "Partner 03" },
+    { src: "/assets/footer_logo/totaltech.jpeg", alt: "Partner 04" },
+    { src: "/assets/footer_logo/trench-unlimited.jpeg", alt: "Partner 05" },
 ];
 const socialLinks = [
     { icon: FaFacebook, href: "#" },
