@@ -65,7 +65,7 @@ export const Footer = () => {
                 Your complete source for finding, selecting, detailing and specifying precast products.
               </h2>
               <p className="text-sm text-blue-100/60 font-medium">
-                ©2026 Precast Engineering & Technology, Inc. All rights reserved.
+                ©2026 Precast Engineering & Technologies, Inc. All rights reserved.
                 <br />
                 Terms of Use and Privacy Policy are applicable to you.
               </p>

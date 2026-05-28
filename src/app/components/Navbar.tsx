@@ -148,7 +148,7 @@ export const Navbar = () => {
           <Link href="/" onClick={() => setActiveMenu(null)} className="shrink-0 flex items-center pr-4 xl:pr-8 border-r border-[#b72121]/80 h-10">
             <Image
               src="/pet.jpeg"
-              alt="PET Precast Engineering & Technology"
+              alt="PET Precast Engineering & Technologies"
               width={220} // Scaled down slightly to help fit on zoomed screens
               height={45}
               className="object-contain"
@@ -271,7 +271,7 @@ export const Navbar = () => {
           <div className="hidden xl:flex shrink-0 pl-4 xl:pl-8 border-l border-[#b72121]/80 h-10 items-center">
             <Link
               href="#technical-vault"
-              className="bg-[#b72121]/80 whitespace-nowrap hover:bg-[#b72121] text-white px-6 py-2.5 text-xs font-bold uppercase tracking-wider rounded transition-colors"
+              className="bg-[#b72121]/80 whitespace-nowrap hover:bg-[#b72121] text-black px-6 py-2.5 text-xs font-bold uppercase tracking-wider rounded transition-colors"
             >
               Access Vault
             </Link>

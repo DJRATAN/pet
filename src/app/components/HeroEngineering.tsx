@@ -26,7 +26,7 @@ const HeroEngineering = () => {
           {/* PET Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-none border-l-4 border-[#b72121]/80 bg-[#b72121]/80/5 text-[#b72121]/80 text-[11px] font-black tracking-[0.3em] uppercase mb-4">
             <span className="w-2 h-2 bg-[#b72121]/80 animate-ping" />
-            Precast Engineering & Technology
+            Precast Engineering & Technologies
           </div>
 
           {/* THE NEW HEADLINE */}

@@ -76,7 +76,7 @@ export const ResourceDirectory = () => {
               </div>
               <h2 className="text-4xl md:text-6xl font-black tracking-tighter leading-[0.95] uppercase">
                 BEYOND <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#b72121]/80 to-[#b72121]/80">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-[#b72121]/80">
                   SPECIFICATIONS.
                 </span>
               </h2>
@@ -96,7 +96,7 @@ export const ResourceDirectory = () => {
                           href={link.href}
                           className="group flex items-center gap-4 text-xs font-black tracking-widest text-white hover:text-[#b72121]/80 transition-colors"
                         >
-                          <div className="p-2 bg-white/10 border border-white/20 group-hover:bg-[#b72121]/80/20 group-hover:border-[#b72121]/80 transition-all duration-300 shrink-0">
+                          <div className="p-2 bg-white/10 border border-white/20 group-hover:bg-[#b72121]/20 group-hover:border-[#b72121]/80 transition-all duration-300 shrink-0">
                             {link.icon}
                           </div>
                           
