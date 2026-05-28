@@ -38,7 +38,7 @@ export default function ExtraordinaryFooter() {
                             {/* BIG LOGO CONTAINER: White Background, Rounded, Increased Size */}
                             <div className="bg-white p-4 rounded-md shadow-sm w-full max-w-[280px] flex items-center justify-center">
                                 <Image
-                                    src="/pet.jpeg"
+                                    src="/pet.png"
                                     alt="Precast Engineering & Technologies"
                                     width={280} // Increased width for "Big Logo"
                                     height={100}
