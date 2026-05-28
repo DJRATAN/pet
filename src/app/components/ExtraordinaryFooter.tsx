@@ -39,7 +39,7 @@ export default function ExtraordinaryFooter() {
                             <div className="bg-white p-4 rounded-md shadow-sm w-full max-w-[280px] flex items-center justify-center">
                                 <Image
                                     src="/pet.jpeg"
-                                    alt="Precast Engineering Group"
+                                    alt="Precast Engineering & Technology"
                                     width={280} // Increased width for "Big Logo"
                                     height={100}
                                     className="object-contain"
@@ -48,7 +48,7 @@ export default function ExtraordinaryFooter() {
                             </div>
 
                             <p className="text-white/80 font-medium text-sm leading-relaxed text-center lg:text-left max-w-xs">
-                                <strong className="text-white">Precast Engineering Group (PEG)</strong> is the global authority dedicated to advancing structural precast technology, engineering, and manufacturing.
+                                <strong className="text-white">Precast Engineering & Technology (PEG)</strong> is the global authority dedicated to advancing structural precast technology, engineering, and manufacturing.
                             </p>
                         </div>
 
@@ -142,7 +142,7 @@ export default function ExtraordinaryFooter() {
                 {/* BOTTOM BAR: LEGAL & STATUS */}
                 <div className=" flex flex-col md:flex-row justify-between items-center gap-6">
                     <div className="font-mono text-[9px] text-white/80 font-bold tracking-widest flex items-center gap-8   ">
-                        <span>© 2026 PRECAST ENGINEERING GROUP</span>
+                        <span>© 2026 Precast Engineering & Technology</span>
                         <span className="hidden md:block w-[1px] h-3 bg-slate-200" />
                         <span className="hover:text-white cursor-pointer transition-colors uppercase">Privacy Policy</span>
                         <span className="hover:text-white cursor-pointer transition-colors uppercase">Terms of Service</span>
