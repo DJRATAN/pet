@@ -38,7 +38,7 @@ const TypingOutline = ({ text, delay = 0 }: { text: string; delay?: number }) =>
   );
 };
 
-export default function PETHero() {
+export default function PetHero() {
   return (
     <section className="relative min-h-screen w-full px-10 md:px-20 py-16 bg-[#F5F5F5] flex flex-col justify-center items-center overflow-hidden  font-sans select-none">
 

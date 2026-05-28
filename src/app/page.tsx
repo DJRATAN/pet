@@ -5,10 +5,8 @@ import { ResourceDirectory } from "./components/ResourceDirectory";
 import { ContentSection } from "./components/ContentSection";
 import { BusinessPodcastSection } from "./components/BusinessPodcastSection";
 import InternationalCreditManager from "./components/InternationalCreditManager";
-import PETHero from "./components/PETHero";
 import LoginGateway from "./components/(auth)/page";
 import AgencySlider from "./components/AgencySlider";
-import PETLocations from "./components/PETLocations";
 import FutureCulvertComponent from "./components/FutureCulvertComponent";
 import DeliverableUpgrade from "./components/DeliverableUpgrade";
 import DotMatrixSlider from "./components/DotMatrixSlider";
@@ -23,6 +21,8 @@ import SeamlessConnection from "./components/SeamlessConnection";
 import TrenchingSystem from "./components/TrenchingSystem";
 import RetainingWallComponent from "./components/RetainingWallComponent";
 import MarinaSystemComponent from "./components/MarinaSystemComponent";
+import PetHero from "./components/PetHero";
+import PetLocations from "./components/PetLocations";
 
 export default function Home() {
   return (
@@ -50,10 +50,10 @@ export default function Home() {
       {/* <BusinessPodcastSection/> */}
       <AgencySlider />
       <ContentSection />
-      <PETHero />
+      <PetHero />
       <DotMatrixSlider />
       <FutureCulvertComponent />
-      <PETLocations />
+      <PetLocations />
       <PrecastersGoDigital />
       <MeetAtShows />
       <section id="contact-us" className="w-full bg-[#b72121] text-white overflow-hidden relative">

@@ -52,7 +52,7 @@ const locations = {
   ]
 };
 
-export default function PETLocations() {
+export default function PetLocations() {
   return (
     <section className="w-full px-10 md:px-20 pt-10 bg-white overflow-hidden">
       <div className="w-full">
