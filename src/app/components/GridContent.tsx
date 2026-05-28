@@ -79,7 +79,7 @@ const GridContent = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         className='text-6xl md:text-8xl font-black text-[#b72121] tracking-tighter leading-none'
                     >
-                        PEG SOLUTIONS <br />
+                        PET SOLUTIONS <br />
                         <span style={{ WebkitTextStroke: "1px #b72121", color: "transparent" }}>FOR THE WHOLE TEAM.</span>
                     </motion.h2>
 

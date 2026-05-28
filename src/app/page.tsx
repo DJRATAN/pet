@@ -5,10 +5,10 @@ import { ResourceDirectory } from "./components/ResourceDirectory";
 import { ContentSection } from "./components/ContentSection";
 import { BusinessPodcastSection } from "./components/BusinessPodcastSection";
 import InternationalCreditManager from "./components/InternationalCreditManager";
-import PegHero from "./components/PegHero";
+import PETHero from "./components/PETHero";
 import LoginGateway from "./components/(auth)/page";
 import AgencySlider from "./components/AgencySlider";
-import PegLocations from "./components/PegLocations";
+import PETLocations from "./components/PETLocations";
 import FutureCulvertComponent from "./components/FutureCulvertComponent";
 import DeliverableUpgrade from "./components/DeliverableUpgrade";
 import DotMatrixSlider from "./components/DotMatrixSlider";
@@ -45,15 +45,15 @@ export default function Home() {
       <section id="technical-vault" className="w-full bg-[#b72121] text-white overflow-hidden relative">
         <GridContent />
       </section>
-      {/* <RegistrationBanner txtSrc={'Register now to save projects, bookmark favorites, and get the most out of PEG'} btSrc="Join PEG" /> */}
+      {/* <RegistrationBanner txtSrc={'Register now to save projects, bookmark favorites, and get the most out of PET'} btSrc="Join PET" /> */}
       {/* <RegistrationBanner txtSrc={'News and Updated Content'} btSrc="" /> */}
       {/* <BusinessPodcastSection/> */}
       <AgencySlider />
       <ContentSection />
-      <PegHero />
+      <PETHero />
       <DotMatrixSlider />
       <FutureCulvertComponent />
-      <PegLocations />
+      <PETLocations />
       <PrecastersGoDigital />
       <MeetAtShows />
       <section id="contact-us" className="w-full bg-[#b72121] text-white overflow-hidden relative">

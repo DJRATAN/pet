@@ -22,14 +22,14 @@ export const BusinessPodcastSection = () => {
           </h2>
           <div className="space-y-4 text-slate-600 text-sm leading-relaxed">
             <p className="font-semibold text-slate-800">Want to be seen when and where your audience is searching?</p>
-            <p>Don’t miss out on the opportunity to be considered at the beginning stages of product selection. Find out how PEG can augment your outreach, even before architects, engineers, and specifiers are ready to connect you directly.</p>
+            <p>Don’t miss out on the opportunity to be considered at the beginning stages of product selection. Find out how PET can augment your outreach, even before architects, engineers, and specifiers are ready to connect you directly.</p>
             <p>Don’t take our word for it, see what some of our happy customers have to say:</p>
           </div>
 
           {/* Light Blue Testimonial Box */}
           <div className="bg-[#b72121]/80/20 p-8 border-l-4 border-[#b72121]/80 mt-8">
             <p className="italic text-[#b72121] font-medium mb-4">
-              "Specifiers rely on PEG as a trusted resource, and being present there ensures our products are discovered at the right time in their design process... Maintaining a steady presence on PEG builds familiarity and trust, and ultimately helps turn early interest into specification."
+              "Specifiers rely on PET as a trusted resource, and being present there ensures our products are discovered at the right time in their design process... Maintaining a steady presence on PET builds familiarity and trust, and ultimately helps turn early interest into specification."
             </p>
             <p className="text-sm font-bold text-slate-700">Trish B, Sales Manager at Fire Trol Fireproof</p>
             <Button variant="outline" className="mt-6 border-[#b72121] text-[#b72121] hover:bg-[#b72121] hover:text-white rounded-none uppercase text-xs font-bold tracking-widest">
@@ -38,7 +38,7 @@ export const BusinessPodcastSection = () => {
           </div>
 
           <Button className="w-full md:w-auto bg-[#b72121] hover:bg-[#b72121] text-white rounded-none px-10 py-6 uppercase font-bold tracking-tighter mt-8">
-            Discover all the benefits of PEG
+            Discover all the benefits of PET
           </Button>
         </div>
       </div>

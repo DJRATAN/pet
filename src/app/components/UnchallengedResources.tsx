@@ -4,7 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Database, FolderSync, Layers, Zap, ArrowRight } from 'lucide-react';
 
-const pegResources = [
+const PETResources = [
   {
     id: "RES_01",
     title: "Master SpecVault",
@@ -61,7 +61,7 @@ export default function UnchallengedResources() {
             >
               Unchallenged <br />
               <span className="text-[#b72121]/80">Resources</span> <br />
-              By PEG.
+              By PET.
             </motion.h2>
 
             <motion.div 
@@ -89,14 +89,14 @@ export default function UnchallengedResources() {
               [&::-webkit-scrollbar-thumb]:bg-[#b72121]/80 
               [&::-webkit-scrollbar-thumb]:hover:bg-white"
             >
-              {pegResources.map((resource, idx) => (
+              {PETResources.map((resource, idx) => (
                 <motion.div
                   key={resource.id}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: idx * 0.1 }}
                   viewport={{ once: true }}
-                  // DEFAULT: Pure White -> HOVER: PEG Bright Blue
+                  // DEFAULT: Pure White -> HOVER: PET Bright Blue
                   className="group relative bg-white hover:bg-[#b72121]/80 px-10 py-4 transition-all duration-500 cursor-pointer overflow-hidden border border-white/10 hover:shadow-[0_20px_60px_rgba(27,121,238,0.4)] shrink-0"
                 >
                   

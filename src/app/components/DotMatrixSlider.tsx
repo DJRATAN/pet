@@ -350,7 +350,7 @@ export default function DotMatrixSlider() {
                 <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-mono font-bold text-slate-400">
                   <span className="flex items-center gap-1.5 text-emerald-600 bg-emerald-50 px-2 py-1 rounded">
                     <CheckCircle className="w-3.5 h-3.5 text-emerald-600" />
-                    PEG VERIFIED
+                    PET VERIFIED
                   </span>
                   <span>REF ID: {activeEnriched.abbr}-DOT</span>
                 </div>

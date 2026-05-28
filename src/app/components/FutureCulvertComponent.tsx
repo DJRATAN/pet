@@ -12,27 +12,27 @@ const futureInitiatives = [
     subtitle: "Ecological Continuity",
     description: "Re-engineering culverts into subterranean bridges that restore natural migration paths and reduce vehicle-wildlife collisions.",
     icon: <Rabbit className="w-8 h-8" />,
-    img: "/assets/images/Box Culvert/11.jpeg", // IMAGE 1
+    img: "/assets/images/Box Culvert/11.jPET", // IMAGE 1
   },
   {
     title: "Utility Tunnels",
     subtitle: "Modular Smart-Cities",
     description: "Dual-purpose box culverts designed to house fiber optics, power, and water, allowing for maintenance without surface excavation.",
     icon: <Zap className="w-8 h-8" />,
-    img: "/assets/images/Box Culvert/12.jpeg", // IMAGE 1
+    img: "/assets/images/Box Culvert/12.jPET", // IMAGE 1
   },
   {
     title: "Eco-Friendly Concrete",
     subtitle: "Carbon-Negative Precast",
     description: "Implementing Pozzolanic admixtures and CO2 mineralization to create culverts that actively sequester carbon over their 100-year lifespan.",
     icon: <Leaf className="w-6 h-6" />,
-    img: "/assets/images/Box Culvert/13.jpeg", // IMAGE 1
+    img: "/assets/images/Box Culvert/13.jPET", // IMAGE 1
   }
 ];
 
 export default function FutureCulvertComponent() {
   return (
-    // Base foundation color: PEG Dark Blue (#b72121)
+    // Base foundation color: PET Dark Blue (#b72121)
     <section className="w-full bg-[#b72121] overflow-hidden flex flex-col select-none">
       
       {/* 1. HEADER STRIP */}
@@ -61,7 +61,7 @@ export default function FutureCulvertComponent() {
             <div className="absolute inset-0 z-0 transition-transform duration-[2000ms] scale-110 group-hover:scale-100 ease-[cubic-bezier(0.16,1,0.3,1)]">
                 <Image 
                     src={item.img} // UPDATED: Pulling different image from the array
-                    alt={`PEG Future Culvert Concept - ${item.title}`}
+                    alt={`PET Future Culvert Concept - ${item.title}`}
                     fill
                     priority={idx === 0} // Prioritize first panel
                     className="object-cover object-center grayscale-0 brightness-[0.4] group-hover:brightness-[0.8] transition-all duration-700"

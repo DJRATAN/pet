@@ -10,11 +10,11 @@ import Image from "next/image";
 import { footerData } from "@/lib/data";
 
 const logos = [
-    { src: "/assets/footer_logo/peg.jpeg", alt: "Partner 01" },
-    { src: "/assets/footer_logo/precasteng.jpeg", alt: "Partner 02" },
-    { src: "/assets/footer_logo/pxchange.jpeg", alt: "Partner 03" },
-    { src: "/assets/footer_logo/totaltech.jpeg", alt: "Partner 04" },
-    { src: "/assets/footer_logo/trench-unlimited.jpeg", alt: "Partner 05" },
+    { src: "/assets/footer_logo/PET.jPET", alt: "Partner 01" },
+    { src: "/assets/footer_logo/precasteng.jPET", alt: "Partner 02" },
+    { src: "/assets/footer_logo/pxchange.jPET", alt: "Partner 03" },
+    { src: "/assets/footer_logo/totaltech.jPET", alt: "Partner 04" },
+    { src: "/assets/footer_logo/trench-unlimited.jPET", alt: "Partner 05" },
 ];
 const socialLinks = [
     { icon: FaFacebook, href: "#" },
@@ -38,7 +38,7 @@ export default function ExtraordinaryFooter() {
                             {/* BIG LOGO CONTAINER: White Background, Rounded, Increased Size */}
                             <div className="bg-white p-4 rounded-md shadow-sm w-full max-w-[280px] flex items-center justify-center">
                                 <Image
-                                    src="/pet.jpeg"
+                                    src="/pet.jPET"
                                     alt="Precast Engineering & Technology"
                                     width={280} // Increased width for "Big Logo"
                                     height={100}
@@ -48,7 +48,7 @@ export default function ExtraordinaryFooter() {
                             </div>
 
                             <p className="text-white/80 font-medium text-sm leading-relaxed text-center lg:text-left max-w-xs">
-                                <strong className="text-white">Precast Engineering & Technology (PEG)</strong> is the global authority dedicated to advancing structural precast technology, engineering, and manufacturing.
+                                <strong className="text-white">Precast Engineering & Technology (PET)</strong> is the global authority dedicated to advancing structural precast technology, engineering, and manufacturing.
                             </p>
                         </div>
 
@@ -100,7 +100,7 @@ export default function ExtraordinaryFooter() {
                                             {/* FIXED CIRCLE: 
                         - Same size as logos (w-12 h-12)
                         - White background
-                        - Hover effect turns it PEG Bright Blue
+                        - Hover effect turns it PET Bright Blue
                     */}
                                             <div className="w-12 h-12 bg-white   flex items-center justify-center shadow-sm transition-all duration-300 group-hover:bg-[#b72121]/80">
                                                 <Icon className="w-5 h-5 text-[#b72121] group-hover:text-white transition-colors duration-300" />

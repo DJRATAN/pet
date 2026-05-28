@@ -25,7 +25,7 @@ const TypingOutline = ({ text, delay = 0 }: { text: string; delay?: number }) =>
             visible: { opacity: 1, y: 0 },
           }}
           className="inline-block"
-          // PEG Light Blue used for the outline
+          // PET Light Blue used for the outline
           style={{
             WebkitTextStroke: "2px #b72121",
             color: "transparent",
@@ -38,7 +38,7 @@ const TypingOutline = ({ text, delay = 0 }: { text: string; delay?: number }) =>
   );
 };
 
-export default function PegHero() {
+export default function PETHero() {
   return (
     <section className="relative min-h-screen w-full px-10 md:px-20 py-16 bg-[#F5F5F5] flex flex-col justify-center items-center overflow-hidden  font-sans select-none">
 
@@ -62,7 +62,7 @@ export default function PegHero() {
 
         <div className="flex flex-col items-center leading-[0.85] mb-8 uppercase text-center">
 
-          {/* Row 1: PEG Dark Blue (Solid) */}
+          {/* Row 1: PET Dark Blue (Solid) */}
           <motion.h1
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
@@ -72,7 +72,7 @@ export default function PegHero() {
             PRECAST
           </motion.h1>
 
-          {/* Row 2: PEG Light Blue (Typing Outline) 
+          {/* Row 2: PET Light Blue (Typing Outline) 
           Using your TypingOutline component for the core service
       */}
           <div className="text-[10vw] md:text-[8.5rem] font-black tracking-tighter">
@@ -115,7 +115,7 @@ export default function PegHero() {
           we provide the vertical precision required for the world's toughest environments."
         </motion.p>
 
-        {/* Actions using PEG Palette */}
+        {/* Actions using PET Palette */}
         <motion.div
           initial={{ y: 40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

@@ -67,7 +67,7 @@ export default function DeliverableUpgrade() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.15 }}
               viewport={{ once: true }}
-              // CARD BACKGROUND: White -> Hovers to PEG Bright Blue
+              // CARD BACKGROUND: White -> Hovers to PET Bright Blue
               className="group relative bg-white border border-[#b72121]/80 px-10 py-2 hover:bg-[#b72121]/80 hover:border-[#b72121]/80 hover:shadow-[0_20px_60px_rgba(27,121,238,0.5)] transition-all duration-500 cursor-pointer flex flex-col h-full overflow-hidden"
             >
               

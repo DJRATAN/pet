@@ -44,7 +44,7 @@ export const ContentSection = () => {
                         You don't need a sales pitch—you need a high-fidelity precision CSI specs, and exact architectural details. You need an engineering fail-safe.
                     </p>
                     <p className="font-black text-white text-xl mt-8">
-                        PEG is your on-demand infrastructure.
+                        PET is your on-demand infrastructure.
                     </p>
                 </div>
             </div>

@@ -9,7 +9,7 @@ export default function SeamlessConnection() {
   return (
     <section className="w-full bg-white overflow-hidden relative">
       
-      {/* BACKGROUND ACCENT: Subtle blueprint grid using pure PEG colors */}
+      {/* BACKGROUND ACCENT: Subtle blueprint grid using pure PET colors */}
       <div 
         className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none"
         style={{ 
@@ -31,7 +31,7 @@ export default function SeamlessConnection() {
           >
             <Waypoints className="w-4 h-4 text-[#b72121]/80 animate-pulse" />
             <p className="font-mono text-[10px] font-black text-[#b72121] uppercase tracking-[0.3em]">
-              The PEG Bridge
+              The PET Bridge
             </p>
           </motion.div>
 

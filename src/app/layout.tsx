@@ -23,10 +23,10 @@ const geistMono = Geist_Mono({
 // UPDATED METADATA
 export const metadata: Metadata = {
   title: {
-    default: "Precast Engineering & Technology | PEG",
-    template: "%s | PEG"
+    default: "Precast Engineering & Technology | PET",
+    template: "%s | PET"
   },
-  description: "PEG is a group of all prcast products",
+  description: "PET is a group of all prcast products",
   icons: {
     icon: "/favicon.png",  
     shortcut: "/favicon.png",

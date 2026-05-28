@@ -59,7 +59,7 @@ export default function TargetAudience() {
               className="text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] uppercase text-[#b72121]"
             >
               Precisely who <br className="hidden md:block" />
-              <span className="text-[#b72121]/80">is PEG for?</span>
+              <span className="text-[#b72121]/80">is PET for?</span>
             </motion.h2>
           </div>
 

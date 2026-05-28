@@ -42,7 +42,7 @@ export default function FuturisticCTA() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="text-6xl md:text-8xl lg:text-9xl font-black text-white uppercase tracking-tighter leading-[0.85] mb-6"
         >
-          PEG YOUR <br className="hidden md:block" />
+          PET YOUR <br className="hidden md:block" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-white  to-[#b72121]/80">
             IDEAS.
           </span>

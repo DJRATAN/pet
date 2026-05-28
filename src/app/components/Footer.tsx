@@ -23,8 +23,8 @@ const footerLinks = [
     links: [
       { name: "Detailed Podcast", href: "#" },
       { name: "Blogs", href: "#" },
-      { name: "PEG Resources", href: "#" },
-      { name: "About PEG", href: "#" },
+      { name: "PET Resources", href: "#" },
+      { name: "About PET", href: "#" },
     ],
   },
   {
@@ -55,8 +55,8 @@ export const Footer = () => {
                 width={170}
                 height={50}
                 loading='lazy'
-                src="/PEG.png" // Professional PEG logo
-                alt="PEG Logo"
+                src="/PET.png" // Professional PET logo
+                alt="PET Logo"
                 className="object-contain"
               />
             </div>

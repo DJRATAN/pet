@@ -30,7 +30,7 @@ const techPillars = [
     id: "04",
     title: "Vertical Integration",
     category: "Products & Solutions",
-    description: "The ultimate convergence of engineering intellect and manufacturing speed. From custom mold design to final erection sequencing, technology drives every phase of the PEG lifecycle.",
+    description: "The ultimate convergence of engineering intellect and manufacturing speed. From custom mold design to final erection sequencing, technology drives every phase of the PET lifecycle.",
     icon: <Factory className="w-8 h-8" />
   }
 ];
@@ -84,7 +84,7 @@ export default function AdvancedEngineeringTech() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
-              // HOVER STATE: Row turns PEG Dark Blue, borders remain clean.
+              // HOVER STATE: Row turns PET Dark Blue, borders remain clean.
               className="group flex flex-col md:flex-row items-start md:items-center border-b border-[#b72121]/80 hover:bg-[#b72121] transition-all duration-500 cursor-pointer p-2 md:px-8 md:py-4 gap-8 md:gap-8 relative overflow-hidden"
             >
               

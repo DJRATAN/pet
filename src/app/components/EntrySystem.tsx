@@ -11,7 +11,7 @@ export default function EntrySystem() {
 
     // Initialize Audio Object
     useEffect(() => {
-        audioRef.current = new Audio('/assets/audio/background.mpeg');
+        audioRef.current = new Audio('/assets/audio/background.mPET');
         audioRef.current.loop = true;
         handleStart();
     }, []);

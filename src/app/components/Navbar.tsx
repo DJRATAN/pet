@@ -71,7 +71,7 @@ const navData = [
   {
     title: 'COMPANY',
     links: [
-      { name: 'About PEG', href: '/about' },
+      { name: 'About PET', href: '/about' },
       { name: 'Blog', href: '/blog' },
       { name: 'Global Locations', href: '/global-location' },
       { name: 'Contacts', href: '/contact' }
@@ -111,9 +111,9 @@ export const Navbar = () => {
       {/* Adjusted padding for smaller screens */}
       <div className="bg-[#b72121] text-white h-10 w-full px-6 xl:px-20 flex justify-between">
         <div className="h-full flex justify-end items-center gap-2 text-[11px] font-bold tracking-wider">
-          <div className="uppercase hidden md:block">PEG</div>
+          <div className="uppercase hidden md:block">PET</div>
           <div className="uppercase hidden md:block">|</div>
-          <div className="hidden md:block">peg.com</div>
+          <div className="hidden md:block">PET.com</div>
         </div>
         <div className="h-full flex justify-end items-center gap-6 text-[11px] font-bold tracking-wider">
 
@@ -147,8 +147,8 @@ export const Navbar = () => {
           {/* Logo */}
           <Link href="/" onClick={() => setActiveMenu(null)} className="shrink-0 flex items-center pr-4 xl:pr-8 border-r border-[#b72121]/80 h-10">
             <Image
-              src="/pet.jpeg"
-              alt="PEG Precast Engineering & Technology"
+              src="/pet.jPET"
+              alt="PET Precast Engineering & Technology"
               width={220} // Scaled down slightly to help fit on zoomed screens
               height={45}
               className="object-contain"
@@ -301,7 +301,7 @@ export const Navbar = () => {
             className="fixed top-0 right-0 w-[300px] h-screen bg-white shadow-[-20px_0_50px_rgba(0,74,173,0.1)] z-[200] flex flex-col"
           >
             <div className="flex justify-between items-center p-6 border-b border-[#b72121]/80">
-              <Image src="/PEG.png" alt="PEG" width={100} height={30} className="object-contain" />
+              <Image src="/PET.png" alt="PET" width={100} height={30} className="object-contain" />
               <button onClick={() => setIsMobileOpen(false)}>
                 <X className="w-6 h-6 text-[#b72121]" />
               </button>

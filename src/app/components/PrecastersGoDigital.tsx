@@ -14,7 +14,7 @@ const digitalChannels = [
   {
     id: "CH_01",
     title: "YouTube",
-    subtitle: "PEG Broadcast Network",
+    subtitle: "PET Broadcast Network",
     description: "High-fidelity video engineering breakdowns, installation timelapses, and structural tutorials delivered in 4K.",
     icon: <PlayCircle className="w-8 h-8" />,
     metric: "12K+ Subs"
@@ -33,7 +33,7 @@ const digitalChannels = [
     subtitle: "Real-Time Infrastructure",
     description: "Join the daily conversation. Live updates from the factory floor, site deployments, and structural engineering insights.",
     icon: <Share2 className="w-8 h-8" />,
-    metric: "@PEG_Global"
+    metric: "@PET_Global"
   },
   {
     id: "CH_04",

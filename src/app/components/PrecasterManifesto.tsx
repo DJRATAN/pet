@@ -8,7 +8,7 @@ const manifestoData = [
   {
     id: "01",
     title: "The Who",
-    subtitle: "PEG Experts",
+    subtitle: "PET Experts",
     headline: "Exclusively Managed and Executed Only By Precasters.",
     description: "We aren't generic drafters. Our entire global engineering node is staffed by veteran precasters who understand the exact realities of the factory floor and the construction site.",
     icon: <Users className="w-10 h-10" />
@@ -78,7 +78,7 @@ export default function PrecasterManifesto() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.15 }}
               viewport={{ once: true }}
-              // DEFAULT: PEG Dark Blue -> HOVER: PEG Bright Blue
+              // DEFAULT: PET Dark Blue -> HOVER: PET Bright Blue
               className="group relative bg-[#b72121] hover:bg-[#b72121]/80 px-12 py-6 transition-all duration-500 cursor-pointer flex flex-col h-full overflow-hidden shadow-[15px_15px_0px_#b72121] hover:shadow-[15px_15px_0px_#b72121]"
             >
               

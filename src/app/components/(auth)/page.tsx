@@ -15,7 +15,7 @@ import {
 // --- Dynamic Typing Logic ---
 const words = ["ENGINEERS.", "AGENCIES.", "CUSTOMERS.", "VENDORS.", "TEAM.", "ENTRY."];
 
-export default function PegPortalDashboard() {
+export default function PETPortalDashboard() {
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
   const [reverse, setReverse] = useState(false);
