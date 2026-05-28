@@ -17,7 +17,7 @@ export const BusinessPodcastSection = () => {
       {/* LEFT: BPM Solutions & Testimonial */}
       <div className="bg-white p-8 md:p-16 flex flex-col justify-center">
         <div className="max-w-xl space-y-6">
-          <h2 className="text-3xl font-bold text-[#004aad] tracking-tight">
+          <h2 className="text-3xl font-bold text-[#b72121] tracking-tight">
             Solutions for BPM's
           </h2>
           <div className="space-y-4 text-slate-600 text-sm leading-relaxed">
@@ -27,24 +27,24 @@ export const BusinessPodcastSection = () => {
           </div>
 
           {/* Light Blue Testimonial Box */}
-          <div className="bg-[#1B79EE]/20 p-8 border-l-4 border-[#1B79EE] mt-8">
-            <p className="italic text-[#004aad] font-medium mb-4">
+          <div className="bg-[#b72121]/80/20 p-8 border-l-4 border-[#b72121]/80 mt-8">
+            <p className="italic text-[#b72121] font-medium mb-4">
               "Specifiers rely on PEG as a trusted resource, and being present there ensures our products are discovered at the right time in their design process... Maintaining a steady presence on PEG builds familiarity and trust, and ultimately helps turn early interest into specification."
             </p>
             <p className="text-sm font-bold text-slate-700">Trish B, Sales Manager at Fire Trol Fireproof</p>
-            <Button variant="outline" className="mt-6 border-[#004aad] text-[#004aad] hover:bg-[#004aad] hover:text-white rounded-none uppercase text-xs font-bold tracking-widest">
+            <Button variant="outline" className="mt-6 border-[#b72121] text-[#b72121] hover:bg-[#b72121] hover:text-white rounded-none uppercase text-xs font-bold tracking-widest">
               More Testimonials <ArrowRight className="ml-2 w-3 h-3" />
             </Button>
           </div>
 
-          <Button className="w-full md:w-auto bg-[#004aad] hover:bg-[#004aad] text-white rounded-none px-10 py-6 uppercase font-bold tracking-tighter mt-8">
+          <Button className="w-full md:w-auto bg-[#b72121] hover:bg-[#b72121] text-white rounded-none px-10 py-6 uppercase font-bold tracking-tighter mt-8">
             Discover all the benefits of PEG
           </Button>
         </div>
       </div>
 
       {/* RIGHT: Podcast Sidebar */}
-      <div className="bg-[#004aad] p-8 md:p-16 text-white relative overflow-hidden">
+      <div className="bg-[#b72121] p-8 md:p-16 text-white relative overflow-hidden">
         {/* Decorative architectural background element */}
         <div className="absolute inset-0 opacity-10 pointer-events-none bg-[url('/building-bg.jpg')] bg-cover bg-center"></div>
         
@@ -70,7 +70,7 @@ export const BusinessPodcastSection = () => {
             ))}
           </div>
 
-          <Button variant="outline" className="mt-12 border-white text-white hover:bg-white hover:text-[#004aad] rounded-none uppercase text-xs font-bold tracking-widest bg-transparent px-8">
+          <Button variant="outline" className="mt-12 border-white text-white hover:bg-white hover:text-[#b72121] rounded-none uppercase text-xs font-bold tracking-widest bg-transparent px-8">
             More Episodes <ArrowRight className="ml-2 w-3 h-3" />
           </Button>
         </div>

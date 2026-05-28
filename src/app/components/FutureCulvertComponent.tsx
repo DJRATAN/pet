@@ -32,15 +32,15 @@ const futureInitiatives = [
 
 export default function FutureCulvertComponent() {
   return (
-    // Base foundation color: PEG Dark Blue (#004aad)
-    <section className="w-full bg-[#004aad] overflow-hidden flex flex-col select-none">
+    // Base foundation color: PEG Dark Blue (#b72121)
+    <section className="w-full bg-[#b72121] overflow-hidden flex flex-col select-none">
       
       {/* 1. HEADER STRIP */}
       <div className="w-full px-10 md:px-20 py-16 flex justify-between items-end border-b border-white/10 relative z-30">
         <div className="space-y-2">
           <h2 className="text-white text-5xl md:text-7xl font-black tracking-tighter leading-[0.9]">
             THE FUTURE OF <br />
-            <span style={{ WebkitTextStroke: "1.5px #1B79EE", color: "transparent" }}>BOX CULVERTS.</span>
+            <span style={{ WebkitTextStroke: "1.5px #b72121", color: "transparent" }}>BOX CULVERTS.</span>
           </h2>
         </div>
  
@@ -69,21 +69,21 @@ export default function FutureCulvertComponent() {
             </div>
 
             {/* Architectural Gradient Overlay - recedes on hover for clear visibility */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[#004aad] via-[#004aad]/50 to-transparent z-10 transition-opacity duration-700 group-hover:opacity-20" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#b72121] via-[#b72121]/50 to-transparent z-10 transition-opacity duration-700 group-hover:opacity-20" />
 
             {/* MAIN CONTENT: Elevated above image and gradient */}
             <div className="relative z-20 space-y-7">
               <div className="flex justify-between items-center">
-                <div className="p-4 bg-white text-[#004aad] transition-transform duration-700 group-hover:rotate-[360deg]">
+                <div className="p-4 bg-white text-[#b72121] transition-transform duration-700 group-hover:rotate-[360deg]">
                   {item.icon}
                 </div>
               </div>
 
               <div>
-                <p className="text-[#1B79EE] font-black text-xs uppercase tracking-widest mb-2">{item.subtitle}</p>
+                <p className="text-[#b72121]/80 font-black text-xs uppercase tracking-widest mb-2">{item.subtitle}</p>
                 {/* Headline using text-shadow for clarity against brighter hovered image */}
                 <h3 
-                  className="text-4xl md:text-5xl font-black text-white uppercase tracking-tighter mb-5 transition-all duration-300 group-hover:text-[#1B79EE] leading-none"
+                  className="text-4xl md:text-5xl font-black text-white uppercase tracking-tighter mb-5 transition-all duration-300 group-hover:text-[#b72121]/80 leading-none"
                   style={{ textShadow: "0px 2px 2px rgba(0, 74, 173, 0.5)" }}
                 >
                   {item.title}
@@ -100,12 +100,12 @@ export default function FutureCulvertComponent() {
               {/* Call-To-Action reveals on hover */}
               <div className="pt-6 border-t border-white/10 flex items-center gap-4 opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500">
                 <span className="text-white font-black text-[10px] uppercase tracking-[0.4em]">Initialize Deployment</span>
-                <ArrowRight className="w-5 h-5 text-[#1B79EE]" />
+                <ArrowRight className="w-5 h-5 text-[#b72121]/80" />
               </div>
             </div>
 
             {/* Decorative Column Number */}
-            <div className="absolute top-12 right-12 z-20 font-mono text-white/10 text-9xl font-black group-hover:text-[#1B79EE]/10 transition-colors cursor-default">
+            <div className="absolute top-12 right-12 z-20 font-mono text-white/10 text-9xl font-black group-hover:text-[#b72121]/80/10 transition-colors cursor-default">
               0{idx + 1}
             </div>
           </motion.div>

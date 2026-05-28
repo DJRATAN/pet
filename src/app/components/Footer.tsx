@@ -39,7 +39,7 @@ const footerLinks = [
 
 export const Footer = () => {
   return (
-    <footer className="relative w-full bg-[#004aad] text-white overflow-hidden">
+    <footer className="relative w-full bg-[#b72121] text-white overflow-hidden">
       {/* Geometric Background Overlay (Mirroring the ARCAT style) */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div className="absolute top-0 left-1/2 w-full h-full bg-gradient-to-br from-white/20 to-transparent skew-x-[-20deg] transform origin-top"></div>

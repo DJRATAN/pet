@@ -38,11 +38,11 @@ export default function Home() {
       <TrenchingSystem />
       <RetainingWallComponent />
       <MarinaSystemComponent />
-      <section id="portal" className="w-full bg-[#004aad] text-white overflow-hidden relative">
+      <section id="portal" className="w-full bg-[#b72121] text-white overflow-hidden relative">
         <LoginGateway />
       </section>
       <DeliverableUpgrade />
-      <section id="technical-vault" className="w-full bg-[#004aad] text-white overflow-hidden relative">
+      <section id="technical-vault" className="w-full bg-[#b72121] text-white overflow-hidden relative">
         <GridContent />
       </section>
       {/* <RegistrationBanner txtSrc={'Register now to save projects, bookmark favorites, and get the most out of PEG'} btSrc="Join PEG" /> */}
@@ -56,7 +56,7 @@ export default function Home() {
       <PegLocations />
       <PrecastersGoDigital />
       <MeetAtShows />
-      <section id="contact-us" className="w-full bg-[#004aad] text-white overflow-hidden relative">
+      <section id="contact-us" className="w-full bg-[#b72121] text-white overflow-hidden relative">
         {/* <ContactTerminal /> */}
       </section>
     </main>

@@ -41,35 +41,35 @@ export default function PegPortalDashboard() {
       role: "Engineers & Architects",
       desc: "Structural Data",
       icon: <Cpu className="w-6 h-6" />,
-      color: "#1B79EE",
+      color: "#b72121",
       span: "md:col-span-2",
     },
     {
       role: "Gov. Agencies",
       desc: "Compliance & Oversight",
       icon: <ShieldCheck className="w-6 h-6" />,
-      color: "#004aad",
+      color: "#b72121",
       span: "md:col-span-1",
     },
     {
       role: "Customers",
       desc: "Project Tracking & Billing",
       icon: <Users className="w-6 h-6" />,
-      color: "#1B79EE",
+      color: "#b72121",
       span: "md:col-span-1",
     },
     {
       role: "Vendors",
       desc: "Supply Chain & Logistics",
       icon: <Truck className="w-6 h-6" />,
-      color: "#004aad",
+      color: "#b72121",
       span: "md:col-span-1",
     },
     {
       role: "Team Members",
       desc: "Internal ERP & Management",
       icon: <Building2 className="w-6 h-6" />,
-      color: "#1B79EE",
+      color: "#b72121",
       span: "md:col-span-1",
     },
   ];
@@ -81,16 +81,16 @@ export default function PegPortalDashboard() {
       <div className="w-full  mb-20 text-center">
  
         
-        <h1 className="text-5xl md:text-8xl font-black text-[#004aad] tracking-tighter flex flex-wrap justify-center items-center gap-x-5">
+        <h1 className="text-5xl md:text-8xl font-black text-[#b72121] tracking-tighter flex flex-wrap justify-center items-center gap-x-5">
           <span>PORTAL</span>
           <span className="relative min-w-[320px] text-left inline-flex items-center">
-            <span style={{ WebkitTextStroke: "2px #1B79EE", color: "transparent" }}>
+            <span style={{ WebkitTextStroke: "2px #b72121", color: "transparent" }}>
               {words[index].substring(0, subIndex)}
             </span>
             <motion.span 
               animate={{ opacity: [1, 0] }}
               transition={{ repeat: Infinity, duration: 0.8 }}
-              className="w-2 h-14 md:h-20 bg-[#1B79EE] ml-2"
+              className="w-2 h-14 md:h-20 bg-[#b72121]/80 ml-2"
             />
           </span>
         </h1>
@@ -104,11 +104,11 @@ export default function PegPortalDashboard() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: i * 0.1 + 0.5 }}
-            className={`group relative p-8 border border-slate-200 bg-white transition-all duration-500 hover:border-[#1B79EE] hover:shadow-[30px_30px_0px_-10px_rgba(27,121,238,0.05)] cursor-pointer ${s.span}`}
+            className={`group relative p-8 border border-slate-200 bg-white transition-all duration-500 hover:border-[#b72121]/80 hover:shadow-[30px_30px_0px_-10px_rgba(27,121,238,0.05)] cursor-pointer ${s.span}`}
           >
             <div className="flex justify-between items-start mb-12">
               <div 
-                className="p-4 bg-[#F8F9FA] transition-colors group-hover:bg-[#004aad]"
+                className="p-4 bg-[#F8F9FA] transition-colors group-hover:bg-[#b72121]"
                 style={{ border: `1px solid ${s.color}30` }}
               >
                 <div className="group-hover:text-white transition-colors" style={{ color: s.color }}>
@@ -119,7 +119,7 @@ export default function PegPortalDashboard() {
             </div>
 
             <div>
-              <h3 className="text-xl font-black text-[#004aad] uppercase tracking-tight mb-2">
+              <h3 className="text-xl font-black text-[#b72121] uppercase tracking-tight mb-2">
                 {s.role}
               </h3>
               <p className="text-xs font-medium text-slate-500 uppercase tracking-widest leading-relaxed">
@@ -127,13 +127,13 @@ export default function PegPortalDashboard() {
               </p>
             </div>
 
-            <div className="mt-10 flex items-center gap-2 text-[#1B79EE] opacity-0 group-hover:opacity-100 transition-all -translate-x-4 group-hover:translate-x-0">
+            <div className="mt-10 flex items-center gap-2 text-[#b72121]/80 opacity-0 group-hover:opacity-100 transition-all -translate-x-4 group-hover:translate-x-0">
               <span className="text-[10px] font-black tracking-widest uppercase">Authorized Access</span>
               <ChevronRight className="w-4 h-4" />
             </div>
 
             {/* Corner Accent for Apple/Engineering style */}
-            <div className="absolute bottom-4 right-4 w-2 h-2 border-r border-b border-slate-200 group-hover:border-[#1B79EE]" />
+            <div className="absolute bottom-4 right-4 w-2 h-2 border-r border-b border-slate-200 group-hover:border-[#b72121]/80" />
           </motion.div>
         ))}
       </div>

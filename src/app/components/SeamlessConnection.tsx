@@ -13,7 +13,7 @@ export default function SeamlessConnection() {
       <div 
         className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none"
         style={{ 
-          backgroundImage: `linear-gradient(#004aad 1px, transparent 1px), linear-gradient(90deg, #004aad 1px, transparent 1px)`, 
+          backgroundImage: `linear-gradient(#b72121 1px, transparent 1px), linear-gradient(90deg, #b72121 1px, transparent 1px)`, 
           backgroundSize: '40px 40px' 
         }}
       />
@@ -27,10 +27,10 @@ export default function SeamlessConnection() {
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-3 bg-[#004aad]/5 border border-[#004aad]/10 px-6 py-2"
+            className="inline-flex items-center gap-3 bg-[#b72121]/5 border border-[#b72121]/80 px-6 py-2"
           >
-            <Waypoints className="w-4 h-4 text-[#1B79EE] animate-pulse" />
-            <p className="font-mono text-[10px] font-black text-[#004aad] uppercase tracking-[0.3em]">
+            <Waypoints className="w-4 h-4 text-[#b72121]/80 animate-pulse" />
+            <p className="font-mono text-[10px] font-black text-[#b72121] uppercase tracking-[0.3em]">
               The PEG Bridge
             </p>
           </motion.div>
@@ -40,11 +40,11 @@ export default function SeamlessConnection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-5xl md:text-7xl font-black text-[#004aad] tracking-tighter leading-[0.9] uppercase"
+            className="text-5xl md:text-7xl font-black text-[#b72121] tracking-tighter leading-[0.9] uppercase"
           >
             One Unique Connection <br />
             For All Your Precast Concrete <br />
-            <span className="text-[#1B79EE]">Before & After Pouring.</span>
+            <span className="text-[#b72121]/80">Before & After Pouring.</span>
           </motion.h2>
 
           <motion.p 
@@ -52,7 +52,7 @@ export default function SeamlessConnection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-xl md:text-3xl font-black text-[#004aad]/80 tracking-tight leading-snug max-w-3xl"
+            className="text-xl md:text-3xl font-black text-[#b72121]/80 tracking-tight leading-snug max-w-3xl"
           >
             How do we assist from your desk back to your shop seamlessly?
           </motion.p>
@@ -63,13 +63,13 @@ export default function SeamlessConnection() {
         <div className="relative">
           
           {/* Visual Connecting Line (Desktop Only) */}
-          <div className="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-[#004aad]/10 -translate-y-1/2 z-0">
+          <div className="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-[#b72121]/80 -translate-y-1/2 z-0">
             <motion.div 
               initial={{ width: "0%" }}
               whileInView={{ width: "100%" }}
               viewport={{ once: true }}
               transition={{ duration: 1.5, ease: "easeInOut" }}
-              className="h-full bg-[#1B79EE] shadow-[0_0_15px_#1B79EE]"
+              className="h-full bg-[#b72121]/80 shadow-[0_0_15px_#b72121]"
             />
           </div>
 
@@ -81,18 +81,18 @@ export default function SeamlessConnection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
-              className="group bg-white border-2 border-[#004aad]/10 hover:border-[#1B79EE] hover:bg-[#1B79EE] p-8 xl:p-6 transition-all duration-500 hover:shadow-[0_20px_50px_rgba(27,121,238,0.4)] flex flex-col items-center text-center"
+              className="group bg-white border-2 border-[#b72121]/80 hover:border-[#b72121]/80 hover:bg-[#b72121]/80 p-8 xl:p-6 transition-all duration-500 hover:shadow-[0_20px_50px_rgba(27,121,238,0.4)] flex flex-col items-center text-center"
             >
-              <div className="w-24 h-24 rounded-full bg-[#004aad]/5 group-hover:bg-white flex items-center justify-center mb-4 transition-colors duration-500">
-                <Monitor className="w-10 h-10 text-[#004aad] group-hover:text-[#1B79EE] transition-colors duration-500" />
+              <div className="w-24 h-24 rounded-full bg-[#b72121]/5 group-hover:bg-white flex items-center justify-center mb-4 transition-colors duration-500">
+                <Monitor className="w-10 h-10 text-[#b72121] group-hover:text-[#b72121]/80 transition-colors duration-500" />
               </div>
-              <h3 className="text-3xl font-black text-[#004aad] group-hover:text-white uppercase tracking-tighter mb-4 transition-colors duration-500">
+              <h3 className="text-3xl font-black text-[#b72121] group-hover:text-white uppercase tracking-tighter mb-4 transition-colors duration-500">
                 From Your Desk
               </h3>
-              <p className="text-[#1B79EE] group-hover:text-white font-black text-[10px] uppercase tracking-[0.2em] mb-4 transition-colors duration-500">
+              <p className="text-[#b72121]/80 group-hover:text-white font-black text-[10px] uppercase tracking-[0.2em] mb-4 transition-colors duration-500">
                 Phase 01: Before Pouring
               </p>
-              <p className="text-[#004aad]/80 group-hover:text-white/90 text-sm font-medium leading-relaxed transition-colors duration-500 max-w-sm">
+              <p className="text-[#b72121]/80 group-hover:text-white/90 text-sm font-medium leading-relaxed transition-colors duration-500 max-w-sm">
                 Advanced CAD drafting, structural calculations, clash detection, and state-specific DOT submittals engineered to perfection before a single drop of concrete is poured.
               </p>
             </motion.div>
@@ -103,18 +103,18 @@ export default function SeamlessConnection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.5 }}
-              className="group bg-white border-2 border-[#004aad]/10 hover:border-[#1B79EE] hover:bg-[#1B79EE] p-8 xl:p-6 transition-all duration-500 hover:shadow-[0_20px_50px_rgba(27,121,238,0.4)] flex flex-col items-center text-center"
+              className="group bg-white border-2 border-[#b72121]/80 hover:border-[#b72121]/80 hover:bg-[#b72121]/80 p-8 xl:p-6 transition-all duration-500 hover:shadow-[0_20px_50px_rgba(27,121,238,0.4)] flex flex-col items-center text-center"
             >
-              <div className="w-24 h-24 rounded-full bg-[#004aad]/5 group-hover:bg-white flex items-center justify-center mb-4 transition-colors duration-500">
-                <Factory className="w-10 h-10 text-[#004aad] group-hover:text-[#1B79EE] transition-colors duration-500" />
+              <div className="w-24 h-24 rounded-full bg-[#b72121]/5 group-hover:bg-white flex items-center justify-center mb-4 transition-colors duration-500">
+                <Factory className="w-10 h-10 text-[#b72121] group-hover:text-[#b72121]/80 transition-colors duration-500" />
               </div>
-              <h3 className="text-3xl font-black text-[#004aad] group-hover:text-white uppercase tracking-tighter mb-4 transition-colors duration-500">
+              <h3 className="text-3xl font-black text-[#b72121] group-hover:text-white uppercase tracking-tighter mb-4 transition-colors duration-500">
                 Back To Your Shop
               </h3>
-              <p className="text-[#1B79EE] group-hover:text-white font-black text-[10px] uppercase tracking-[0.2em] mb-6 transition-colors duration-500">
+              <p className="text-[#b72121]/80 group-hover:text-white font-black text-[10px] uppercase tracking-[0.2em] mb-6 transition-colors duration-500">
                 Phase 02: After Pouring
               </p>
-              <p className="text-[#004aad]/80 group-hover:text-white/90 text-sm font-medium leading-relaxed transition-colors duration-500 max-w-sm">
+              <p className="text-[#b72121]/80 group-hover:text-white/90 text-sm font-medium leading-relaxed transition-colors duration-500 max-w-sm">
                 Parametric formwork fabrication, exact-tolerance 3D component isolation, lifting inserts, and step-by-step erection sequencing deployed directly to the floor.
               </p>
             </motion.div>

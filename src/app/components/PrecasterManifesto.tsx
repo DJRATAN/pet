@@ -39,7 +39,7 @@ export default function PrecasterManifesto() {
       <div className="w-full px-10 md:px-20 py-16 relative z-10">
         
         {/* HEADER SECTION */}
-        <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-12 border-b-4 border-[#004aad] pb-12">
+        <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-12 border-b-4 border-[#b72121] pb-12">
           
           <div className="space-y-6 max-w-4xl">
 
@@ -49,10 +49,10 @@ export default function PrecasterManifesto() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] uppercase text-[#004aad]"
+              className="text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] uppercase text-[#b72121]"
             >
               By Precasters. <br />
-              <span className="text-[#1B79EE]">For Precasters.</span>
+              <span className="text-[#b72121]/80">For Precasters.</span>
             </motion.h2>
           </div>
 
@@ -63,7 +63,7 @@ export default function PrecasterManifesto() {
             transition={{ delay: 0.2 }}
             className="hidden lg:block text-right pb-2"
           >
-            <p className="text-[#004aad] font-black text-2xl uppercase tracking-tighter">
+            <p className="text-[#b72121] font-black text-2xl uppercase tracking-tighter">
               Why, What & Who?
             </p>
           </motion.div>
@@ -79,7 +79,7 @@ export default function PrecasterManifesto() {
               transition={{ delay: idx * 0.15 }}
               viewport={{ once: true }}
               // DEFAULT: PEG Dark Blue -> HOVER: PEG Bright Blue
-              className="group relative bg-[#004aad] hover:bg-[#1B79EE] px-12 py-6 transition-all duration-500 cursor-pointer flex flex-col h-full overflow-hidden shadow-[15px_15px_0px_#1B79EE] hover:shadow-[15px_15px_0px_#004aad]"
+              className="group relative bg-[#b72121] hover:bg-[#b72121]/80 px-12 py-6 transition-all duration-500 cursor-pointer flex flex-col h-full overflow-hidden shadow-[15px_15px_0px_#b72121] hover:shadow-[15px_15px_0px_#b72121]"
             >
               
               {/* LARGE BACKGROUND WATERMARK */}
@@ -93,7 +93,7 @@ export default function PrecasterManifesto() {
                   {item.icon}
                 </div>
                 <div className="bg-white px-4 py-1">
-                  <span className="text-[#004aad] group-hover:text-[#1B79EE] font-black text-[10px] uppercase tracking-widest transition-colors duration-500">
+                  <span className="text-[#b72121] group-hover:text-[#b72121]/80 font-black text-[10px] uppercase tracking-widest transition-colors duration-500">
                     {item.title}
                   </span>
                 </div>

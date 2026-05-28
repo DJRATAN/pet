@@ -26,11 +26,11 @@ const socialLinks = [
 export default function ExtraordinaryFooter() {
     return (
 
-        <footer className="relative w-full bg-[#004aad] text-white border-t-2 border-slate-100 overflow-hidden select-none">
+        <footer className="relative w-full bg-[#b72121] text-white border-t-2 border-slate-100 overflow-hidden select-none">
 
             {/* 32-INCH FULL WIDTH CONTAINER */}
             <div className="w-full px-10 md:px-20 py-16">
-                <div className="w-full bg-[#004aad] text-white pb-10 overflow-hidden">
+                <div className="w-full bg-[#b72121] text-white pb-10 overflow-hidden">
                     <div className="w-full grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
 
                         {/* 1. LEFT: LOGO + ABOUT */}
@@ -38,7 +38,7 @@ export default function ExtraordinaryFooter() {
                             {/* BIG LOGO CONTAINER: White Background, Rounded, Increased Size */}
                             <div className="bg-white p-4 rounded-md shadow-sm w-full max-w-[280px] flex items-center justify-center">
                                 <Image
-                                    src="/PEG.png"
+                                    src="/pet.jpeg"
                                     alt="Precast Engineering Group"
                                     width={280} // Increased width for "Big Logo"
                                     height={100}
@@ -102,8 +102,8 @@ export default function ExtraordinaryFooter() {
                         - White background
                         - Hover effect turns it PEG Bright Blue
                     */}
-                                            <div className="w-12 h-12 bg-white   flex items-center justify-center shadow-sm transition-all duration-300 group-hover:bg-[#1B79EE]">
-                                                <Icon className="w-5 h-5 text-[#004aad] group-hover:text-white transition-colors duration-300" />
+                                            <div className="w-12 h-12 bg-white   flex items-center justify-center shadow-sm transition-all duration-300 group-hover:bg-[#b72121]/80">
+                                                <Icon className="w-5 h-5 text-[#b72121] group-hover:text-white transition-colors duration-300" />
                                             </div>
                                         </motion.a>
                                     );
@@ -117,7 +117,7 @@ export default function ExtraordinaryFooter() {
                     {footerData.map((section, idx) => (
                         <div key={idx} className="flex flex-col gap-6">
                             <h3 className="text-white text-[11px] font-black uppercase tracking-[0.3em] flex items-center gap-2">
-                                <span className="w-2 h-2 bg-[#1B79EE]" />
+                                <span className="w-2 h-2 bg-[#b72121]/80" />
                                 {section.title}
                             </h3>
 

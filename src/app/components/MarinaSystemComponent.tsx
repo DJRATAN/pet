@@ -28,7 +28,7 @@ export default function MarinaSystemComponent() {
       
       {/* BACKGROUND DECORATION: Nautical Grid */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none" 
-           style={{ backgroundImage: `radial-gradient(#1B79EE 1px, transparent 1px)`, backgroundSize: '40px 40px' }} />
+           style={{ backgroundImage: `radial-gradient(#b72121 1px, transparent 1px)`, backgroundSize: '40px 40px' }} />
 
       <div className="max-w-[1800px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-start relative z-10">
         
@@ -38,26 +38,26 @@ export default function MarinaSystemComponent() {
             <motion.div 
               initial={{ width: 0 }}
               whileInView={{ width: '80px' }}
-              className="h-1 bg-[#1B79EE]"
+              className="h-1 bg-[#b72121]/80"
             />
-            <h2 className="text-6xl md:text-8xl font-black text-[#004aad] tracking-tighter leading-none">
+            <h2 className="text-6xl md:text-8xl font-black text-[#b72121] tracking-tighter leading-none">
               FLOATING <br />
-              <span className="text-[#1B79EE]">MARINAS.</span>
+              <span className="text-[#b72121]/80">MARINAS.</span>
             </h2>
-            <p className="text-[#004aad]/70 font-medium text-lg leading-relaxed max-w-md">
+            <p className="text-[#b72121]/70 font-medium text-lg leading-relaxed max-w-md">
               Engineered for the harshest marine environments. Our precast floating docks redefine durability through hydro-dynamic design and carbon-fiber reinforcement.
             </p>
           </div>
 
-          <div className="space-y-8 bg-[#004aad]/5 p-10 border-l-8 border-[#004aad]">
+          <div className="space-y-8 bg-[#b72121]/5 p-10 border-l-8 border-[#b72121]">
             {marinaSpecs.map((spec, i) => (
               <div key={i} className="flex gap-6 group">
-                <div className="text-[#1B79EE] shrink-0">{spec.icon}</div>
+                <div className="text-[#b72121]/80 shrink-0">{spec.icon}</div>
                 <div>
-                  <h4 className="text-[#004aad] font-black text-xs uppercase tracking-[0.2em] mb-2 flex items-center gap-3">
+                  <h4 className="text-[#b72121] font-black text-xs uppercase tracking-[0.2em] mb-2 flex items-center gap-3">
                     {spec.title}
                   </h4>
-                  <p className="text-[#004aad]/70 text-sm leading-relaxed">{spec.detail}</p>
+                  <p className="text-[#b72121]/70 text-sm leading-relaxed">{spec.detail}</p>
                 </div>
               </div>
             ))}

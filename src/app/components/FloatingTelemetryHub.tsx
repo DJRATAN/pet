@@ -47,7 +47,7 @@ export default function FloatingTelemetryHub() {
         {socialLinks.map((social, idx) => (
           <Link key={idx} href={social.href} className="group relative flex justify-end">
             {/* ROUNDED: Added rounded-full so it starts as a circle and expands to a pill */}
-            <div className="flex items-center w-12 h-12 rounded-full bg-[#004aad] border border-[#1B79EE]/30 text-white group-hover:w-36 group-hover:bg-[#1B79EE] group-hover:border-[#1B79EE] transition-all duration-500 overflow-hidden shadow-[0_8px_20px_rgba(0,74,173,0.2)]">
+            <div className="flex items-center w-12 h-12 rounded-full bg-[#b72121] border border-[#b72121]/80/30 text-white group-hover:w-36 group-hover:bg-[#b72121]/80 group-hover:border-[#b72121]/80 transition-all duration-500 overflow-hidden shadow-[0_8px_20px_rgba(0,74,173,0.2)]">
 
               {/* Adjusted left spacing slightly (left-5) to account for the curved edge */}
               <span className="absolute left-5 opacity-0 group-hover:opacity-100 font-mono text-[10px] font-black tracking-widest whitespace-nowrap transition-opacity duration-300 delay-100">
@@ -76,10 +76,10 @@ export default function FloatingTelemetryHub() {
             {/* ROUNDED: Added rounded-full to make the main button a perfect circle */}
             <button
               onClick={scrollToTop}
-              className="group relative w-12 h-12 rounded-full bg-white text-[#004aad] border-2 border-[#004aad] flex items-center justify-center overflow-hidden shadow-[0_8px_20px_rgba(0,74,173,0.15)] hover:shadow-[0_0_30px_rgba(27,121,238,0.4)] transition-all duration-300"
+              className="group relative w-12 h-12 rounded-full bg-white text-[#b72121] border-2 border-[#b72121] flex items-center justify-center overflow-hidden shadow-[0_8px_20px_rgba(0,74,173,0.15)] hover:shadow-[0_0_30px_rgba(27,121,238,0.4)] transition-all duration-300"
             >
               {/* Added rounded-full to the fill animation to respect the circular border */}
-              <div className="absolute inset-0 rounded-full bg-[#004aad] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-0" />
+              <div className="absolute inset-0 rounded-full bg-[#b72121] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-0" />
 
 
               <ChevronUp className="w-5 h-5 relative z-10 group-hover:text-white transition-colors duration-500" />

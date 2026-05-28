@@ -109,7 +109,7 @@ export const Navbar = () => {
 
       {/* 1. TOP UTILITY BAR */}
       {/* Adjusted padding for smaller screens */}
-      <div className="bg-[#004aad] text-white h-10 w-full px-6 xl:px-20 flex justify-between">
+      <div className="bg-[#b72121] text-white h-10 w-full px-6 xl:px-20 flex justify-between">
         <div className="h-full flex justify-end items-center gap-2 text-[11px] font-bold tracking-wider">
           <div className="uppercase hidden md:block">PEG</div>
           <div className="uppercase hidden md:block">|</div>
@@ -123,7 +123,7 @@ export const Navbar = () => {
             </button></Link>
 
           {/* Integrated Search Bar - Hidden on very small screens to save space */}
-          <div className="hidden sm:flex items-center bg-white/10 rounded px-3 py-1.5 w-48 md:w-64 border border-white/20 focus-within:border-[#1B79EE] transition-colors">
+          <div className="hidden sm:flex items-center bg-white/10 rounded px-3 py-1.5 w-48 md:w-64 border border-white/20 focus-within:border-[#b72121]/80 transition-colors">
             <Search className="w-3.5 h-3.5 text-white/70 mr-2 shrink-0" />
             <input
               type="text"
@@ -140,14 +140,14 @@ export const Navbar = () => {
       </div>
 
       {/* 2. MAIN NAVIGATION BAR */}
-      <div className="bg-white border-b border-[#004aad]/10 h-18 w-full relative">
+      <div className="bg-white border-b border-[#b72121]/80 h-18 w-full relative">
         {/* Adjusted padding to flow nicely when zoomed in */}
         <div className="w-full px-6 xl:px-20 h-full flex justify-between items-center relative">
 
           {/* Logo */}
-          <Link href="/" onClick={() => setActiveMenu(null)} className="shrink-0 flex items-center pr-4 xl:pr-8 border-r border-[#004aad]/10 h-10">
+          <Link href="/" onClick={() => setActiveMenu(null)} className="shrink-0 flex items-center pr-4 xl:pr-8 border-r border-[#b72121]/80 h-10">
             <Image
-              src="/PEG.png"
+              src="/pet.jpeg"
               alt="PEG Precast Engineering Group"
               width={220} // Scaled down slightly to help fit on zoomed screens
               height={45}
@@ -171,11 +171,11 @@ export const Navbar = () => {
                     onClick={() => toggleMenu(item.title)}
                     // Added whitespace-nowrap and slightly smaller horizontal padding (px-3) for zoom tolerance
                     className={`h-full px-3 2xl:px-4 whitespace-nowrap flex items-center gap-1 text-[12px] font-black uppercase tracking-tight transition-all duration-200 border-t-4
-                      ${isOpen ? 'text-[#004aad] border-[#004aad] bg-[#004aad]/5' : 'text-[#004aad]/70 border-transparent hover:text-[#1B79EE]'}
+                      ${isOpen ? 'text-[#b72121] border-[#b72121] bg-[#b72121]/5' : 'text-[#b72121]/70 border-transparent hover:text-[#b72121]/80'}
                     `}
                   >
                     {item.title}
-                    <ChevronDown className={`w-3 h-3 transition-transform duration-300 ${isOpen ? 'rotate-180 text-[#004aad]' : 'text-[#004aad]/50'}`} />
+                    <ChevronDown className={`w-3 h-3 transition-transform duration-300 ${isOpen ? 'rotate-180 text-[#b72121]' : 'text-[#b72121]/50'}`} />
                   </button>
 
                   {/* DROP DOWN / MEGA MENU RENDERER */}
@@ -186,19 +186,19 @@ export const Navbar = () => {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: 5 }}
                         transition={{ duration: 0.2 }}
-                        className={`absolute top-full left-1/2 -translate-x-1/2 bg-white border border-[#004aad]/10 shadow-[0_20px_50px_rgba(0,74,173,0.1)] rounded-b-md overflow-hidden z-50
+                        className={`absolute top-full left-1/2 -translate-x-1/2 bg-white border border-[#b72121]/80 shadow-[0_20px_50px_rgba(0,74,173,0.1)] rounded-b-md overflow-hidden z-50
                           ${hasMegaMenu ? 'w-[800px]' : 'w-[280px]'}
                         `}
                       >
                         {/* Standard Link Dropdown */}
                         {!hasMegaMenu && item.links && (
-                          <ul className="flex flex-col py-2 border-t-2 border-[#1B79EE]">
+                          <ul className="flex flex-col py-2 border-t-2 border-[#b72121]/80">
                             {item.links.map((link) => (
                               <li key={link.name}>
                                 <Link
                                   href={link.href}
                                   onClick={() => setActiveMenu(null)}
-                                  className="block px-6 py-3 text-xs font-bold text-[#004aad]/70 hover:bg-[#004aad]/5 hover:text-[#004aad] transition-colors"
+                                  className="block px-6 py-3 text-xs font-bold text-[#b72121]/70 hover:bg-[#b72121]/5 hover:text-[#b72121] transition-colors"
                                 >
                                   {link.name}
                                 </Link>
@@ -209,12 +209,12 @@ export const Navbar = () => {
 
                         {/* Mega Menu */}
                         {hasMegaMenu && (
-                          <div className="flex h-[320px] border-t-2 border-[#1B79EE]">
+                          <div className="flex h-[320px] border-t-2 border-[#b72121]/80">
                             {item.megaMenu?.map((col, idx) => {
                               const Icon = col.icon;
                               return (
-                                <div key={idx} className="flex-1 p-8 border-r border-[#004aad]/5">
-                                  <div className="flex items-center gap-2 text-[#004aad] mb-6">
+                                <div key={idx} className="flex-1 p-8 border-r border-[#b72121]/5">
+                                  <div className="flex items-center gap-2 text-[#b72121] mb-6">
                                     <Icon className="w-5 h-5" />
                                     <h4 className="font-black text-xs uppercase tracking-widest">{col.heading}</h4>
                                   </div>
@@ -224,7 +224,7 @@ export const Navbar = () => {
                                         <Link
                                           href={link.href}
                                           onClick={() => setActiveMenu(null)}
-                                          className="text-sm font-medium text-[#004aad]/70 hover:text-[#1B79EE] transition-colors"
+                                          className="text-sm font-medium text-[#b72121]/70 hover:text-[#b72121]/80 transition-colors"
                                         >
                                           {link.name}
                                         </Link>
@@ -236,23 +236,23 @@ export const Navbar = () => {
                             })}
 
                             {/* Featured Tool Box */}
-                            <div className="w-[280px] p-8 bg-[#004aad]/5 flex flex-col">
-                              <div className="flex items-center gap-2 text-[#004aad] mb-6">
+                            <div className="w-[280px] p-8 bg-[#b72121]/5 flex flex-col">
+                              <div className="flex items-center gap-2 text-[#b72121] mb-6">
                                 <Wrench className="w-5 h-5" />
                                 <h4 className="font-black text-xs uppercase tracking-widest">Featured Tool</h4>
                               </div>
 
-                              <div className="w-full h-24 bg-white border border-[#1B79EE]/20 rounded mb-4 flex items-center justify-center text-[#1B79EE]/40">
+                              <div className="w-full h-24 bg-white border border-[#b72121]/80/20 rounded mb-4 flex items-center justify-center text-[#b72121]/80/40">
                                 [Illustration]
                               </div>
 
-                              <h5 className="font-bold text-sm text-[#004aad] mb-2 leading-tight uppercase">{item.featured?.title}</h5>
-                              <p className="text-xs text-[#004aad]/60 mb-6 leading-relaxed">{item.featured?.description}</p>
+                              <h5 className="font-bold text-sm text-[#b72121] mb-2 leading-tight uppercase">{item.featured?.title}</h5>
+                              <p className="text-xs text-[#b72121]/60 mb-6 leading-relaxed">{item.featured?.description}</p>
 
                               <Link
                                 href={item.featured?.href || "#"}
                                 onClick={() => setActiveMenu(null)}
-                                className="mt-auto block text-center w-full border-2 border-[#004aad] text-[#004aad] py-2 text-[10px] font-black uppercase tracking-wider hover:bg-[#004aad] hover:text-white transition-colors"
+                                className="mt-auto block text-center w-full border-2 border-[#b72121] text-[#b72121] py-2 text-[10px] font-black uppercase tracking-wider hover:bg-[#b72121] hover:text-white transition-colors"
                               >
                                 {item.featured?.buttonText}
                               </Link>
@@ -268,10 +268,10 @@ export const Navbar = () => {
           </nav>
 
           {/* Desktop CTA Button - Shifted to xl breakpoint */}
-          <div className="hidden xl:flex shrink-0 pl-4 xl:pl-8 border-l border-[#004aad]/10 h-10 items-center">
+          <div className="hidden xl:flex shrink-0 pl-4 xl:pl-8 border-l border-[#b72121]/80 h-10 items-center">
             <Link
               href="#technical-vault"
-              className="bg-[#1B79EE] whitespace-nowrap hover:bg-[#004aad] text-white px-6 py-2.5 text-xs font-bold uppercase tracking-wider rounded transition-colors"
+              className="bg-[#b72121]/80 whitespace-nowrap hover:bg-[#b72121] text-white px-6 py-2.5 text-xs font-bold uppercase tracking-wider rounded transition-colors"
             >
               Access Vault
             </Link>
@@ -281,7 +281,7 @@ export const Navbar = () => {
           <div className="xl:hidden flex items-center gap-4">
             <button
               onClick={() => setIsMobileOpen(!isMobileOpen)}
-              className="bg-[#004aad] hover:bg-[#1B79EE] transition-colors p-2 rounded text-white"
+              className="bg-[#b72121] hover:bg-[#b72121]/80 transition-colors p-2 rounded text-white"
             >
               {isMobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
@@ -300,10 +300,10 @@ export const Navbar = () => {
             transition={{ type: 'tween', duration: 0.3 }}
             className="fixed top-0 right-0 w-[300px] h-screen bg-white shadow-[-20px_0_50px_rgba(0,74,173,0.1)] z-[200] flex flex-col"
           >
-            <div className="flex justify-between items-center p-6 border-b border-[#004aad]/10">
+            <div className="flex justify-between items-center p-6 border-b border-[#b72121]/80">
               <Image src="/PEG.png" alt="PEG" width={100} height={30} className="object-contain" />
               <button onClick={() => setIsMobileOpen(false)}>
-                <X className="w-6 h-6 text-[#004aad]" />
+                <X className="w-6 h-6 text-[#b72121]" />
               </button>
             </div>
 
@@ -312,11 +312,11 @@ export const Navbar = () => {
                 const isExpanded = mobileExpandedNode === item.title;
 
                 return (
-                  <div key={item.title} className="border-b border-[#004aad]/5">
+                  <div key={item.title} className="border-b border-[#b72121]/5">
                     <button
                       onClick={() => setMobileExpandedNode(isExpanded ? null : item.title)}
                       className={`w-full flex justify-between items-center px-6 py-4 text-xs font-black uppercase tracking-wider transition-colors
-                        ${isExpanded ? 'bg-[#004aad]/5 text-[#1B79EE]' : 'text-[#004aad]'}
+                        ${isExpanded ? 'bg-[#b72121]/5 text-[#b72121]/80' : 'text-[#b72121]'}
                       `}
                     >
                       {item.title}
@@ -329,7 +329,7 @@ export const Navbar = () => {
                           initial={{ height: 0 }}
                           animate={{ height: 'auto' }}
                           exit={{ height: 0 }}
-                          className="overflow-hidden bg-[#004aad]/5 border-t border-[#1B79EE]/10"
+                          className="overflow-hidden bg-[#b72121]/5 border-t border-[#b72121]/80/10"
                         >
                           <ul className="px-6 py-2 pb-6 space-y-3">
                             {(item.links || item.megaMenu?.flatMap(m => m.links))?.map((link: any, i) => (
@@ -337,7 +337,7 @@ export const Navbar = () => {
                                 <Link
                                   href={link.href}
                                   onClick={() => setIsMobileOpen(false)}
-                                  className="text-sm font-medium text-[#004aad]/70 pl-4 border-l-2 border-[#1B79EE]/30 hover:border-[#1B79EE] hover:text-[#004aad] block py-1 transition-all"
+                                  className="text-sm font-medium text-[#b72121]/70 pl-4 border-l-2 border-[#b72121]/80/30 hover:border-[#b72121]/80 hover:text-[#b72121] block py-1 transition-all"
                                 >
                                   {link.name}
                                 </Link>
@@ -352,11 +352,11 @@ export const Navbar = () => {
               })}
             </div>
 
-            <div className="p-6 border-t border-[#004aad]/10">
+            <div className="p-6 border-t border-[#b72121]/80">
               <Link
                 href="#technical-vault"
                 onClick={() => setIsMobileOpen(false)}
-                className="block text-center w-full bg-[#004aad] hover:bg-[#1B79EE] text-white py-4 text-xs font-bold uppercase tracking-wider rounded transition-colors"
+                className="block text-center w-full bg-[#b72121] hover:bg-[#b72121]/80 text-white py-4 text-xs font-bold uppercase tracking-wider rounded transition-colors"
               >
                 Access Technical Vault
               </Link>

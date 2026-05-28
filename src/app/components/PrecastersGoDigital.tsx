@@ -47,7 +47,7 @@ const digitalChannels = [
 
 export default function PrecastersGoDigital() {
   return (
-    <section className="w-full bg-[#004aad] text-white overflow-hidden relative">
+    <section className="w-full bg-[#b72121] text-white overflow-hidden relative">
       
       {/* BACKGROUND DIGITAL WAVES */}
       <div className="absolute inset-0 opacity-[0.05] pointer-events-none flex flex-col justify-between py-20">
@@ -78,41 +78,41 @@ export default function PrecastersGoDigital() {
               transition={{ delay: idx * 0.15 }}
               viewport={{ once: true }}
               // FIXED HOVER LOGIC: White default -> Bright Blue on hover
-              className="group relative flex flex-col h-[440px] bg-white hover:bg-[#1B79EE] border border-white/10 hover:border-[#1B79EE] hover:shadow-[0_20px_50px_rgba(27,121,238,0.5)] transition-all duration-700 cursor-pointer overflow-hidden"
+              className="group relative flex flex-col h-[440px] bg-white hover:bg-[#b72121]/80 border border-white/10 hover:border-[#b72121]/80 hover:shadow-[0_20px_50px_rgba(27,121,238,0.5)] transition-all duration-700 cursor-pointer overflow-hidden"
             >
               
               {/* Main Content Area */}
               <div className="flex-grow px-8 py-2 flex flex-col justify-center relative z-10">
                 {/* ICON: Dark Blue -> White on hover */}
-                <div className="mb-8 text-[#004aad] group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:-translate-y-2">
+                <div className="mb-8 text-[#b72121] group-hover:text-white transition-all duration-500 group-hover:scale-110 group-hover:-translate-y-2">
                   {channel.icon}
                 </div>
                 
                 {/* SUBTITLE: Bright Blue -> White on hover */}
-                <p className="text-[#1B79EE] group-hover:text-white font-black text-[10px] uppercase tracking-widest mb-2 transition-colors duration-500">
+                <p className="text-[#b72121]/80 group-hover:text-white font-black text-[10px] uppercase tracking-widest mb-2 transition-colors duration-500">
                   {channel.subtitle}
                 </p>
                 {/* TITLE: Dark Blue -> White on hover */}
-                <h3 className="text-4xl font-black text-[#004aad] group-hover:text-white uppercase tracking-tighter mb-4 transition-colors duration-500">
+                <h3 className="text-4xl font-black text-[#b72121] group-hover:text-white uppercase tracking-tighter mb-4 transition-colors duration-500">
                   {channel.title}
                 </h3>
                 {/* DESCRIPTION: Faded Dark Blue -> Faded White on hover */}
-                <p className="text-[#004aad]/80 group-hover:text-white/90 text-sm font-medium leading-relaxed transition-colors duration-500">
+                <p className="text-[#b72121]/80 group-hover:text-white/90 text-sm font-medium leading-relaxed transition-colors duration-500">
                   {channel.description}
                 </p>
               </div>
 
               {/* Action Footer */}
               {/* FOOTER BACKGROUND: Light Blue Tint -> Slightly Darker Tint on hover */}
-              <div className="px-8 py-2 bg-[#004aad]/5 group-hover:bg-[#004aad]/20 transition-colors duration-500 flex justify-between items-center mt-auto relative z-10">
-                <span className="font-mono text-[10px] font-black text-[#1B79EE] group-hover:text-white tracking-widest uppercase transition-colors duration-500">
+              <div className="px-8 py-2 bg-[#b72121]/5 group-hover:bg-[#b72121]/20 transition-colors duration-500 flex justify-between items-center mt-auto relative z-10">
+                <span className="font-mono text-[10px] font-black text-[#b72121]/80 group-hover:text-white tracking-widest uppercase transition-colors duration-500">
                   {channel.metric}
                 </span>
-                <ArrowRight className="w-5 h-5 text-[#004aad]/30 group-hover:text-white transition-colors duration-500" />
+                <ArrowRight className="w-5 h-5 text-[#b72121]/30 group-hover:text-white transition-colors duration-500" />
               </div>
 
               {/* Hover Top-Border Accent: Dark Blue -> White on hover */}
-              <div className="absolute top-0 left-0 w-0 h-1 bg-[#004aad] group-hover:bg-white group-hover:w-full transition-all duration-700 z-20" />
+              <div className="absolute top-0 left-0 w-0 h-1 bg-[#b72121] group-hover:bg-white group-hover:w-full transition-all duration-700 z-20" />
             </motion.div>
           ))}
         </div>

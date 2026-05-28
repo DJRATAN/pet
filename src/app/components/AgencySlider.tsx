@@ -20,12 +20,12 @@ export default function FullWidthAgencySlider() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-[#004aad]/10 pb-10"
+          className="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-[#b72121]/80 pb-10"
         >
           <div className="space-y-2">
  
-            <p className="text-5xl md:text-7xl font-black text-[#004aad] tracking-tighter leading-none">
-              AGENCY <span style={{ WebkitTextStroke: "1.5px #1B79EE", color: "transparent" }}>STANDARDS</span>
+            <p className="text-5xl md:text-7xl font-black text-[#b72121] tracking-tighter leading-none">
+              AGENCY <span style={{ WebkitTextStroke: "1.5px #b72121", color: "transparent" }}>STANDARDS</span>
             </p>
           </div>
           
@@ -56,7 +56,7 @@ export default function FullWidthAgencySlider() {
                 key={`left-${idx}`}
                 className="flex items-center justify-center px-16 py-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 transition-all duration-700 cursor-default"
               >
-                <span className="text-3xl font-black tracking-[0.2em] text-[#004aad] hover:text-[#1B79EE]">
+                <span className="text-3xl font-black tracking-[0.2em] text-[#b72121] hover:text-[#b72121]/80">
                   {agency.name}
                 </span>
               </div>
@@ -85,7 +85,7 @@ export default function FullWidthAgencySlider() {
               >
                 <span 
                   className="text-3xl font-black tracking-[0.2em]"
-                  style={{ WebkitTextStroke: "1px #004aad", color: "transparent" }}
+                  style={{ WebkitTextStroke: "1px #b72121", color: "transparent" }}
                 >
                   {agency.name}
                 </span>
@@ -100,7 +100,7 @@ export default function FullWidthAgencySlider() {
         <motion.div 
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-12 pt-10 border-t border-[#004aad]/5"
+          className="grid grid-cols-2 md:grid-cols-4 gap-12 pt-10 border-t border-[#b72121]/5"
         >
           {[
             { label: 'Compliance', status: 'Verified' },
@@ -109,10 +109,10 @@ export default function FullWidthAgencySlider() {
             { label: 'Authorization', status: 'Active' }
           ].map((item, i) => (
             <div key={i} className="group cursor-default">
-              <p className="text-xs font-mono text-[#1B79EE] mb-1">
+              <p className="text-xs font-mono text-[#b72121]/80 mb-1">
                 DATA_POINT_0{i + 1}
               </p>
-              <p className="text-lg font-black text-[#004aad] uppercase tracking-tighter group-hover:text-[#1B79EE] transition-colors">
+              <p className="text-lg font-black text-[#b72121] uppercase tracking-tighter group-hover:text-[#b72121]/80 transition-colors">
                 {item.label}
               </p>
               <p className="text-xs font-mono text-slate-400 mt-1 uppercase">

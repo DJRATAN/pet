@@ -7,14 +7,14 @@ import Link from 'next/link';
 
 export default function FuturisticCTA() {
   return (
-    <section className="relative w-full px-10 md:px-20 py-12 bg-[#004aad] overflow-hidden flex items-center justify-center min-h-[60vh]">
+    <section className="relative w-full px-10 md:px-20 py-12 bg-[#b72121] overflow-hidden flex items-center justify-center min-h-[60vh]">
       
       {/* BACKGROUND: Futuristic CAD Grid & Glows */}
       <div 
         className="absolute inset-0 z-0 opacity-20 pointer-events-none"
         
       />
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[#004aad] rounded-full blur-[150px] opacity-30 z-0 pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[#b72121] rounded-full blur-[150px] opacity-30 z-0 pointer-events-none" />
 
       {/* CONTENT CONTAINER */}
       <div className="relative z-10 w-full max-w-[1800px] mx-auto flex flex-col items-center text-center">
@@ -25,7 +25,7 @@ export default function FuturisticCTA() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="flex items-center gap-3 bg-[#004aad]/20 border border-[#1B79EE]/70 px-6 py-2 mb-8 backdrop-blur-sm"
+          className="flex items-center gap-3 bg-[#b72121]/20 border border-[#b72121]/80/70 px-6 py-2 mb-8 backdrop-blur-sm"
         >
           <Box className="w-4 h-4 text-white animate-pulse" />
           <span className="font-mono text-[11px] font-black uppercase tracking-[0.4em] text-white">
@@ -43,7 +43,7 @@ export default function FuturisticCTA() {
           className="text-6xl md:text-8xl lg:text-9xl font-black text-white uppercase tracking-tighter leading-[0.85] mb-6"
         >
           PEG YOUR <br className="hidden md:block" />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white  to-[#1B79EE]">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white  to-[#b72121]/80">
             IDEAS.
           </span>
         </motion.h2>
@@ -79,22 +79,22 @@ export default function FuturisticCTA() {
         >
           <Link 
             href="/contact"
-            className="group relative inline-flex items-center justify-center gap-4 bg-white text-[#004aad] px-10 py-6 overflow-hidden transition-all duration-300 hover:shadow-[0_0_40px_rgba(34,211,238,0.4)]"
+            className="group relative inline-flex items-center justify-center gap-4 bg-white text-[#b72121] px-10 py-6 overflow-hidden transition-all duration-300 hover:shadow-[0_0_40px_rgba(34,211,238,0.4)]"
           >
             {/* Hover Sweep Effect */}
-            <div className="absolute inset-0 bg-[#1B79EE] translate-y-[100%] group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-0" />
+            <div className="absolute inset-0 bg-[#b72121]/80 translate-y-[100%] group-hover:translate-y-0 transition-transform duration-500 ease-in-out z-0" />
             
-            <span className="relative z-10 font-mono text-sm font-black uppercase tracking-[0.3em] group-hover:text-[#004aad] transition-colors">
+            <span className="relative z-10 font-mono text-sm font-black uppercase tracking-[0.3em] group-hover:text-[#b72121] transition-colors">
               Initiate Deployment
             </span>
-            <ArrowRight className="relative z-10 w-5 h-5 group-hover:translate-x-1 group-hover:text-[#004aad] transition-transform" />
+            <ArrowRight className="relative z-10 w-5 h-5 group-hover:translate-x-1 group-hover:text-[#b72121] transition-transform" />
           </Link>
         </motion.div>
 
       </div>
 
       {/* Decorative Border Bottom */}
-      <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-[#004aad] via-[#1B79EE] to-[#004aad]" />
+      <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-[#b72121] via-[#b72121]/80 to-[#b72121]" />
     </section>
   );
 }

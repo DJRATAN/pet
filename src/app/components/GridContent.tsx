@@ -32,7 +32,7 @@ const technicalData = [
             { label: "CAD Strategy", sub: "Seamless digital integration into master site models." }
         ],
         // Default colors
-        activeBg: "#004aad",
+        activeBg: "#b72121",
         activeText: "#ffffff",
     },
     {
@@ -43,7 +43,7 @@ const technicalData = [
             { label: "Ready & Custom Softwares", sub: "Proprietary ERP & design automation." },
             { label: "Rapid Approvals", sub: "Accelerated PE stamping & submittal cycles." }
         ],
-        activeBg: "#004aad",
+        activeBg: "#b72121",
         activeText: "#ffffff",
     },
     {
@@ -53,7 +53,7 @@ const technicalData = [
             { label: "Mold & Forms Designs", sub: "Parametric modeling for complex geometries." },
             { label: "Mold & Forms Manufacturing", sub: "Precision CNC fabrication & assembly." }
         ],
-        activeBg: "#004aad",
+        activeBg: "#b72121",
         activeText: "#ffffff",
     },
     {
@@ -63,7 +63,7 @@ const technicalData = [
             { label: "Robotics Implementation", sub: "Automated casting & reinforcement placement." },
             { label: "Neural Process Mapping", sub: "AI-driven supply chain optimization." }
         ],
-        activeBg: "#004aad",
+        activeBg: "#b72121",
         activeText: "#ffffff",
     },
 ];
@@ -77,15 +77,15 @@ const GridContent = () => {
                     <motion.h2
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        className='text-6xl md:text-8xl font-black text-[#004aad] tracking-tighter leading-none'
+                        className='text-6xl md:text-8xl font-black text-[#b72121] tracking-tighter leading-none'
                     >
                         PEG SOLUTIONS <br />
-                        <span style={{ WebkitTextStroke: "1px #1B79EE", color: "transparent" }}>FOR THE WHOLE TEAM.</span>
+                        <span style={{ WebkitTextStroke: "1px #b72121", color: "transparent" }}>FOR THE WHOLE TEAM.</span>
                     </motion.h2>
 
                     <div className="flex flex-col md:flex-row justify-between items-end gap-8 pt-2 border-t border-slate-100">
                         <div className="max-w-2xl">
-                            <h3 className="text-3xl font-black text-[#004aad] uppercase tracking-tight mb-4">
+                            <h3 className="text-3xl font-black text-[#b72121] uppercase tracking-tight mb-4">
                                 What is Precast Engineering?
                             </h3>
                             <p className="text-slate-500 font-medium text-lg leading-relaxed">
@@ -98,9 +98,9 @@ const GridContent = () => {
                 </div>
 
                 {/* HEADER: Brutalist Style */}
-                <div className="mb-8 border-l-8 border-[#1B79EE] pl-8">
-                    <p className="text-5xl md:text-7xl font-black text-[#004aad] tracking-tighter">
-                        TECHNICAL <span style={{ WebkitTextStroke: "1px #1B79EE", color: "transparent" }}>SPECS.</span>
+                <div className="mb-8 border-l-8 border-[#b72121]/80 pl-8">
+                    <p className="text-5xl md:text-7xl font-black text-[#b72121] tracking-tighter">
+                        TECHNICAL <span style={{ WebkitTextStroke: "1px #b72121", color: "transparent" }}>SPECS.</span>
                     </p>
                 </div>
 
@@ -122,12 +122,12 @@ const GridContent = () => {
                         >
                             {/* Module Header */}
                             <div className="flex justify-between items-start mb-4 relative z-10">
-                                <div className="p-4 bg-[#F1F5F9] text-[#1B79EE] group-hover:bg-white/20 group-hover:text-white transition-colors duration-300">
+                                <div className="p-4 bg-[#F1F5F9] text-[#b72121]/80 group-hover:bg-white/20 group-hover:text-white transition-colors duration-300">
                                     {spec.icon}
                                 </div> 
                             </div>
 
-                            <h3 className="text-2xl font-black uppercase tracking-tighter mb-10 text-[#004aad] group-hover:text-white relative z-10 transition-colors duration-300">
+                            <h3 className="text-2xl font-black uppercase tracking-tighter mb-10 text-[#b72121] group-hover:text-white relative z-10 transition-colors duration-300">
                                 {spec.category}
                             </h3>
 
@@ -136,11 +136,11 @@ const GridContent = () => {
                                 {spec.items.map((item, i) => (
                                     <li key={i} className="group/item cursor-default">
                                         <div className="flex items-start gap-4">
-                                            <div className="mt-1.5 shrink-0 transition-transform group-hover:rotate-45 text-[#1B79EE] group-hover:text-white">
+                                            <div className="mt-1.5 shrink-0 transition-transform group-hover:rotate-45 text-[#b72121]/80 group-hover:text-white">
                                                 <ArrowUpRight className="w-4 h-4" />
                                             </div>
                                             <div>
-                                                <p className="text-sm font-black uppercase tracking-wider mb-1 text-[#004aad] group-hover:text-white transition-colors">
+                                                <p className="text-sm font-black uppercase tracking-wider mb-1 text-[#b72121] group-hover:text-white transition-colors">
                                                     {item.label}
                                                 </p>
                                                 <p className="text-[11px] font-medium leading-relaxed text-slate-500 group-hover:text-white/70 transition-colors">
@@ -153,7 +153,7 @@ const GridContent = () => {
                             </ul>
 
                             {/* Faded Background Number */}
-                            <div className="absolute bottom-4 right-6 font-mono text-[60px] font-black opacity-[0.03] select-none text-[#004aad] group-hover:text-white group-hover:opacity-[0.07] transition-all">
+                            <div className="absolute bottom-4 right-6 font-mono text-[60px] font-black opacity-[0.03] select-none text-[#b72121] group-hover:text-white group-hover:opacity-[0.07] transition-all">
                                 0{idx + 1}
                             </div>
                         </motion.div>
@@ -164,12 +164,12 @@ const GridContent = () => {
  
                     <div className="relative flex justify-center">
                         <span className="bg-white px-6">
-                            <Zap className="w-8 h-8 text-[#1B79EE] animate-pulse" />
+                            <Zap className="w-8 h-8 text-[#b72121]/80 animate-pulse" />
                         </span>
                     </div>
-                    <h2 className='text-4xl md:text-6xl text-center mt-10 font-black text-[#004aad] tracking-tighter uppercase'>
+                    <h2 className='text-4xl md:text-6xl text-center mt-10 font-black text-[#b72121] tracking-tighter uppercase'>
                         Innovations, More Innovations <br />
-                        <span className="text-[#1B79EE]">& Non-Stop Innovations.</span>
+                        <span className="text-[#b72121]/80">& Non-Stop Innovations.</span>
                     </h2>
                 </div>
 
@@ -189,11 +189,11 @@ function QuickLinkCard({ icon, title, description, href, count, tag }: {
 }) {
     return (
         <Link href={href} className="group">
-            <div className="bg-white border border-slate-200 p-10 transition-all duration-500 group-hover:border-[#1B79EE] group-hover:shadow-[30px_30px_0px_-10px_rgba(27,121,238,0.04)] flex flex-col h-full relative overflow-hidden">
+            <div className="bg-white border border-slate-200 p-10 transition-all duration-500 group-hover:border-[#b72121]/80 group-hover:shadow-[30px_30px_0px_-10px_rgba(27,121,238,0.04)] flex flex-col h-full relative overflow-hidden">
 
                 {/* Top Label */}
                 <div className="flex justify-between items-center mb-10">
-                    <div className="text-[#1B79EE] scale-125 group-hover:rotate-12 transition-transform duration-500">
+                    <div className="text-[#b72121]/80 scale-125 group-hover:rotate-12 transition-transform duration-500">
                         {icon}
                     </div>
                     <span className="font-mono text-[9px] font-bold text-slate-300 tracking-[0.3em] uppercase">
@@ -202,7 +202,7 @@ function QuickLinkCard({ icon, title, description, href, count, tag }: {
                 </div>
 
                 <div className="flex flex-col flex-1">
-                    <h3 className="text-2xl font-black text-[#004aad] mb-4 tracking-tight group-hover:text-[#1B79EE] transition-colors">
+                    <h3 className="text-2xl font-black text-[#b72121] mb-4 tracking-tight group-hover:text-[#b72121]/80 transition-colors">
                         {title}
                     </h3>
                     <p className="text-sm font-medium text-slate-500 leading-relaxed mb-8">
@@ -214,11 +214,11 @@ function QuickLinkCard({ icon, title, description, href, count, tag }: {
                     <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">
                         {count}
                     </span>
-                    <ArrowRight className="w-5 h-5 text-[#1B79EE] -translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300" />
+                    <ArrowRight className="w-5 h-5 text-[#b72121]/80 -translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300" />
                 </div>
 
                 {/* Corner Decoration */}
-                <div className="absolute top-0 right-0 w-8 h-8 border-r border-t border-transparent group-hover:border-[#1B79EE] transition-all" />
+                <div className="absolute top-0 right-0 w-8 h-8 border-r border-t border-transparent group-hover:border-[#b72121]/80 transition-all" />
             </div>
         </Link>
     );

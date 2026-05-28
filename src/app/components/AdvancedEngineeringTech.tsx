@@ -40,8 +40,8 @@ export default function AdvancedEngineeringTech() {
     <section className="w-full  bg-white overflow-hidden relative">
       
       {/* Background Accent Lines */}
-      <div className="absolute top-0 left-10 md:left-20 w-px h-full bg-[#004aad]/5 pointer-events-none" />
-      <div className="absolute top-0 right-10 md:right-20 w-px h-full bg-[#004aad]/5 pointer-events-none" />
+      <div className="absolute top-0 left-10 md:left-20 w-px h-full bg-[#b72121]/5 pointer-events-none" />
+      <div className="absolute top-0 right-10 md:right-20 w-px h-full bg-[#b72121]/5 pointer-events-none" />
 
       <div className="w-full px-10 md:px-20 relative z-10">
         
@@ -55,10 +55,10 @@ export default function AdvancedEngineeringTech() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-5xl md:text-7xl font-black tracking-tighter leading-[0.9] uppercase text-[#004aad]"
+              className="text-5xl md:text-7xl font-black tracking-tighter leading-[0.9] uppercase text-[#b72121]"
             >
               Advanced Engineering <br />
-              <span className="text-[#1B79EE]">& Technologies.</span>
+              <span className="text-[#b72121]/80">& Technologies.</span>
             </motion.h2>
           </div>
 
@@ -69,14 +69,14 @@ export default function AdvancedEngineeringTech() {
             transition={{ delay: 0.2 }}
             className="hidden lg:block text-right max-w-sm"
           >
-            <p className="text-[#004aad]/70 font-medium text-sm leading-relaxed">
+            <p className="text-[#b72121]/70 font-medium text-sm leading-relaxed">
               What is important to us? Utilizing next-generation technology to protect your margins, accelerate production, and ensure absolute precision.
             </p>
           </motion.div>
         </div>
 
         {/* STACKED HORIZONTAL GRID */}
-        <div className="border-t-4 border-[#004aad]">
+        <div className="border-t-4 border-[#b72121]">
           {techPillars.map((pillar, idx) => (
             <motion.div
               key={pillar.id}
@@ -85,7 +85,7 @@ export default function AdvancedEngineeringTech() {
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
               // HOVER STATE: Row turns PEG Dark Blue, borders remain clean.
-              className="group flex flex-col md:flex-row items-start md:items-center border-b border-[#004aad]/10 hover:bg-[#004aad] transition-all duration-500 cursor-pointer p-2 md:px-8 md:py-4 gap-8 md:gap-8 relative overflow-hidden"
+              className="group flex flex-col md:flex-row items-start md:items-center border-b border-[#b72121]/80 hover:bg-[#b72121] transition-all duration-500 cursor-pointer p-2 md:px-8 md:py-4 gap-8 md:gap-8 relative overflow-hidden"
             >
               
               {/* LARGE WATERMARK (Visible only on hover) */}
@@ -95,34 +95,34 @@ export default function AdvancedEngineeringTech() {
 
               {/* NUMBER & ICON */}
               <div className="flex items-center gap-8 shrink-0 relative z-10">
-                <span className="text-4xl md:text-5xl font-black text-[#1B79EE] group-hover:text-[#1B79EE] transition-colors duration-500">
+                <span className="text-4xl md:text-5xl font-black text-[#b72121]/80 group-hover:text-[#b72121]/80 transition-colors duration-500">
                   {pillar.id}
                 </span>
-                <div className="p-4 bg-[#004aad]/5 group-hover:bg-[#1B79EE] text-[#004aad] group-hover:text-white transition-colors duration-500">
+                <div className="p-4 bg-[#b72121]/5 group-hover:bg-[#b72121]/80 text-[#b72121] group-hover:text-white transition-colors duration-500">
                   {pillar.icon}
                 </div>
               </div>
 
               {/* TEXT CONTENT */}
               <div className="flex-1 relative z-10">
-                <p className="text-[#1B79EE] group-hover:text-white font-mono text-[10px] font-black uppercase tracking-[0.2em] mb-2 transition-colors duration-500">
+                <p className="text-[#b72121]/80 group-hover:text-white font-mono text-[10px] font-black uppercase tracking-[0.2em] mb-2 transition-colors duration-500">
                   {pillar.category}
                 </p>
-                <h3 className="text-2xl md:text-4xl font-black text-[#004aad] group-hover:text-white uppercase tracking-tighter mb-4 transition-colors duration-500">
+                <h3 className="text-2xl md:text-4xl font-black text-[#b72121] group-hover:text-white uppercase tracking-tighter mb-4 transition-colors duration-500">
                   {pillar.title}
                 </h3>
-                <p className="text-[#004aad]/70 group-hover:text-white/80 text-sm leading-relaxed font-medium max-w-3xl transition-colors duration-500">
+                <p className="text-[#b72121]/70 group-hover:text-white/80 text-sm leading-relaxed font-medium max-w-3xl transition-colors duration-500">
                   {pillar.description}
                 </p>
               </div>
 
               {/* ARROW ACTION */}
-              <div className="hidden md:flex items-center justify-center shrink-0 w-16 h-16 border-2 border-[#004aad]/10 group-hover:border-[#1B79EE] text-[#004aad]/30 group-hover:text-white transition-all duration-500 group-hover:scale-110">
+              <div className="hidden md:flex items-center justify-center shrink-0 w-16 h-16 border-2 border-[#b72121]/80 group-hover:border-[#b72121]/80 text-[#b72121]/30 group-hover:text-white transition-all duration-500 group-hover:scale-110">
                 <ArrowRight className="w-6 h-6 transform group-hover:translate-x-1 transition-transform duration-500" />
               </div>
 
               {/* Mobile Arrow Action */}
-              <div className="md:hidden flex items-center gap-4 mt-4 text-[#1B79EE] font-black text-xs uppercase tracking-widest group-hover:text-white">
+              <div className="md:hidden flex items-center gap-4 mt-4 text-[#b72121]/80 font-black text-xs uppercase tracking-widest group-hover:text-white">
                 Explore Technology <ArrowRight className="w-4 h-4" />
               </div>
 

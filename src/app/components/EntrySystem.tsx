@@ -41,7 +41,7 @@ export default function EntrySystem() {
             >
                 <button
                     onClick={toggleMute}
-                    className="text-[#004aad] curser-pointer"
+                    className="text-[#b72121] curser-pointer"
                 >
                     {isMuted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
                 </button>
