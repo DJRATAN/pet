@@ -147,7 +147,7 @@ export const Navbar = () => {
           {/* Logo */}
           <Link href="/" onClick={() => setActiveMenu(null)} className="shrink-0 flex items-center pr-4 xl:pr-8 border-r border-[#b72121]/80 h-10">
             <Image
-              src="/pet.jPET"
+              src="/pet.jpeg"
               alt="PET Precast Engineering & Technology"
               width={220} // Scaled down slightly to help fit on zoomed screens
               height={45}
