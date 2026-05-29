@@ -2,9 +2,8 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Plus, ArrowUpRight } from "lucide-react";
-import { FaFacebook, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
-import { BsTwitter } from "react-icons/bs";
+import { Plus } from "lucide-react";
+import {  FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa';
 import Link from "next/link";
 import Image from "next/image";
 import { footerData } from "@/lib/data";
@@ -17,8 +16,8 @@ const logos = [
     { src: "/assets/footer_logo/trench-unlimited.jpeg", alt: "Partner 05" },
 ];
 const socialLinks = [
-    { icon: FaFacebook, href: "#" },
-    { icon: BsTwitter, href: "#" },
+    { icon: FaFacebookF, href: "#" },
+    { icon: FaTwitter, href: "#" },
     { icon: FaYoutube, href: "#" },
     { icon: FaInstagram, href: "#" },
     { icon: FaLinkedinIn, href: "#" },

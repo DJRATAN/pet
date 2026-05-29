@@ -81,7 +81,7 @@ export default function SeamlessConnection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
-              className="group bg-white border-2 border-[#b72121]/80 hover:border-[#b72121]/80 hover:bg-[#b72121]/80 p-8 xl:p-6 transition-all duration-500 hover:shadow-[0_20px_50px_rgba(27,121,238,0.4)] flex flex-col items-center text-center"
+              className="group bg-white border-2 border-[#b72121]/80 hover:border-[#b72121]/80 hover:bg-[#b72121] p-8 xl:p-6 transition-all duration-500 hover:shadow-[0_20px_50px_rgba(27,121,238,0.4)] flex flex-col items-center text-center"
             >
               <div className="w-24 h-24 rounded-full bg-[#b72121]/5 group-hover:bg-white flex items-center justify-center mb-4 transition-colors duration-500">
                 <Monitor className="w-10 h-10 text-[#b72121] group-hover:text-[#b72121]/80 transition-colors duration-500" />
@@ -103,7 +103,7 @@ export default function SeamlessConnection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.5 }}
-              className="group bg-white border-2 border-[#b72121]/80 hover:border-[#b72121]/80 hover:bg-[#b72121]/80 p-8 xl:p-6 transition-all duration-500 hover:shadow-[0_20px_50px_rgba(27,121,238,0.4)] flex flex-col items-center text-center"
+              className="group bg-white border-2 border-[#b72121]/80 hover:border-[#b72121]/80 hover:bg-[#b72121] p-8 xl:p-6 transition-all duration-500 hover:shadow-[0_20px_50px_rgba(27,121,238,0.4)] flex flex-col items-center text-center"
             >
               <div className="w-24 h-24 rounded-full bg-[#b72121]/5 group-hover:bg-white flex items-center justify-center mb-4 transition-colors duration-500">
                 <Factory className="w-10 h-10 text-[#b72121] group-hover:text-[#b72121]/80 transition-colors duration-500" />
