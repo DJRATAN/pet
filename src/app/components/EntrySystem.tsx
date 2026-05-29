@@ -120,7 +120,7 @@ export default function EntrySystem() {
                 <div className="h-6 w-[1px] bg-white/20 mx-2" />
                 <button
                     onClick={toggleMute}
-                    className="p-3 text-white hover:text-[#b72121] transition-colors"
+                    className="p-3 text-white hover:text-white transition-colors"
                 >
                     {isMuted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
                 </button>
